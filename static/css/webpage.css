@@ -1,0 +1,439 @@
+:root {
+	--color_blue: 153, 255, 255;
+	--color_purple: 199, 175, 189;
+	--color_yellow: 248, 242, 218;
+	--color_grey: 	72,	68, 82;
+	--color_black: 3, 3, 3;
+	/*
+	#C7AFBD
+
+	-- for more colour information use:
+	https://www.colorhexa.com/dd4b39
+	*/
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+	/*
+	background-color: black;
+	background-color: rgba(var(--color), 0.1);
+	background-color: #F8F9FA;
+	*/
+	background-color: rgba(var(--color_grey), 0.85);
+	margin-left: 0px;
+	margin-top: 0% !important;
+	margin-right: 0px;
+	margin-bottom: 10% !important;
+	padding: 0px;
+	font-family: Arial, Helvetica;
+	position: relative;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+iframe {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	color: #484452;
+	font-family: Trebuchet MS;
+	margin: 15px 35px 15px 35px;
+	/*
+	text-align: center;
+	*/
+}
+
+h1, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+	font-style: none;
+	font-family: Arial Black;
+	text-align: center;
+}
+
+h1#title {
+	margin-bottom: 50px;
+}
+
+h2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+table {
+	max-width: 100%;
+	border-collapse: collapse;
+
+}
+
+th {
+	font-weight: bold;
+}
+
+th, td {
+	padding: 8px;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.row {
+	padding: 0px;
+	margin: 0px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.leftcolumn {
+	float: left;
+	padding-left: 5px;
+	padding-top: 80px;
+	padding-right: 5px;
+	height: 100%;
+	/*
+	height: 100vh;
+	background-color: #C7AFBD;
+	*/
+	width: 17.5%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+#leftcolumn_background {
+
+	position: fixed;
+	background-color: #121212; 
+
+	/*
+	rgba(var(--color_black), 0.95);
+	*/
+}
+
+.mainbody_column {
+	/*
+	display: block;
+	*/
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 65.5%;
+	margin: 45px 15px 25px 15px;
+	padding: 5px;
+	background-color: inherit;
+
+	/*
+	background-color: #F8F2DA;
+	background-color: rgba(var(--color), 0.2);
+	*/
+}
+
+.rightcolumn {
+	float: right;
+	width: 20%;
+	margin: 85px 0px 0px 0px;
+	padding: 0px;
+	background-color: inherit;
+	width: auto;
+}
+
+#rightcolumn_background {
+	float: right;
+	position: fixed;
+	right: 2%;
+}
+
+div#item_to_be_spied_on {
+	position: relative;
+	height: 800px;
+	overflow-y: scroll;
+
+}	
+
+div.list-group {
+	float: right;
+	display: inline-block;
+	position: relative;
+
+}
+
+a.list-group-item {
+	text-align: center;
+} 
+
+div.background_image {
+	position: fixed; /* Make it stick, even on scroll */
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient( rgba(0, 0, 0, 0.2), 
+		rgba(0, 0, 0, 0.2) ), url("../images/fotis_fotopoulos_unsplash.jpg");
+	background-size: cover;
+
+	position: fixed; /* Make it stick, even on scroll */
+}
+
+.darken_overlay {
+	width: 100%;
+ 	height: auto;
+  	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/*
+.block {
+	text-align: center;
+	background-color: grey;
+	max-width: 40%;
+	height: auto;
+	margin: 0px auto; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	border-radius: 15px 50px 30px;
+}
+Used for putting profile picture and navagation bar 
+*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+ul.navbar {
+	display: block;
+	position: relative; /* Make it stick, even on scroll */
+  	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  	list-style-type: none;
+  	max-width: 90%;
+	height: auto;
+	margin: 5% 10% 5% 10%;
+  	padding: 8px 4px 8px 4px;
+
+	/*
+	margin-top: 4%;
+	margin-left: 10%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: rgba(var(--color_purple), 0.65);
+	*/
+}
+
+li.navbar_item {
+  	text-align: center;
+  	max-width: 100%;
+  	display: block;
+
+  	/*
+  	padding: 8px 4px 8px 4px;
+  	margin: 2px;
+  	*/
+}
+
+/*
+Put both "list" and "a" tags for hover, and 
+this allows you to change their font colour. 
+*/
+
+li:last-child{
+	border-right: none;
+}
+
+li.navbar_item a.navbar_link {
+	transition: width 2s;
+}
+
+li.navbar_item a.navbar_link:hover {
+
+	/*
+	background-color: white;
+	color: black;
+	*/
+	color: white;
+	text-decoration: none;
+	text-decoration-line: underline;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition-delay: 1s; /* Safari */
+  	transition-delay: 1s;
+  
+	/*
+	color: black;
+	*/
+}
+
+a.navbar_link {
+  display: block;
+  padding: 12px 6px 12px 6px;
+  color: white;
+  /* this padding changes the size of the hover IF we have li a:hover ;
+  padding: 8px 4px 8px 4px; 
+   */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*
+a.navbar_link:hover {
+ 	color: black;
+}
+*/
+
+.center_table {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 15px;
+	margin-bottom: 15px; 
+}
+
+table.table {
+	margin: 35px;
+	border: 1px;
+
+}
+
+/*
+
+search pseudo-classes 
+
+tr:nth-child(even) {
+	background-color: #E0B0FF;
+} 
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+*/
+
+.table_year {
+  background-color: #1F1F1F; /* #C3B091 #4DA3FF */
+  color: white;
+  font-weight:bold;	
+  border: 1px;
+}
+
+.table_sem {
+  background-color: #121212; /* #C3B091 #007BFF */
+  color: white;
+  font-weight:bold;	
+  border: 1px;
+}
+
+.td#border_top {
+
+}
+
+.td#border_top_left {
+
+}
+
+.td#border_top_right {
+
+}
+
+.td#border_bottom_left {
+
+}
+
+.td#border_bottom_right {
+
+}
+
+.form {
+	text-align:left;
+}
+
+#notice {
+	margin: 25px 5px;
+	font-family:Comic Sans MS;
+	font-weight:bold;
+	color:red;
+	font-size:125%;
+}
+
+#profile_picture {
+	height: auto;
+	position: relative;
+	display: block;
+	border-radius:  50%;
+	margin-left:auto;
+	margin-right:auto; 
+	max-width: 45%;
+
+	overflow: hidden;
+
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	padding-right: 7.5px;
+	padding-left: 7.5px;
+
+	/*
+	margin-left:auto;
+	margin-right:auto; 
+	margin-left: 50%;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	max-width: 70%;	
+	display: block;
+	border-radius: 15px 50px 30px;
+
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	*/
+}
+
+#profile_picture:hover {
+	background-color: inherit;
+}
+
+#profile_picture_homepage:hover {
+	background-color: rgba(var(--color_black), 1.0);
+}
+
+.video_wrapper_wrapper {
+	color: black;
+	width: 500;
+	height: 450;
+}
+
+.video_wrapper {
+	margin: 5% 0% 0% 5%;
+	text-align: center;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+}
+
+.video_wrapper iframe {
+	position: absolute;
+	top: 0%;
+	left: 6.5%;
+	width: 75%;
+	height: 70%;
+}
+

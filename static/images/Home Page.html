@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///Users/Jerry/Documents/GithubCode/website/html/home.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+
+		<title> Home Page </title>
+
+		
+		
+		<link rel="stylesheet" type="text/css" href="./Home Page_files/homepage.css">	
+
+
+		<!-- 
+			Used for social media icons
+		-->
+
+		<link rel="stylesheet" href="./Home Page_files/all.css">
+
+		<!--
+
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+		
+		<script src="https://use.fontawesome.com/your-embed-code.js"></script>
+		
+		<script defer src="https://use.fontawesome.com/releases/v5.6.1/js/all.js" integrity="sha384-R5JkiUweZpJjELPWqttAYmYM1P3SNEJRM6ecTQF05pFFtxmCO+Y1CiUhvuDzgSVZ" crossorigin="anonymous"></script>
+		-->
+
+
+	</head>
+	<body class="home_body">
+
+		<div class="home_block"> 
+
+			<img src="./Home Page_files/linkedin_dp.jpg" alt="Profile Picture" align="center" id="profile_picture_homepage">
+
+			<h2 class="h_home_page"> Jerry Xu </h2>
+
+			<p class="h_home_page"> <strong> Statistics &amp; Computer Science</strong> </p>
+
+			<ul class="navbar_homepage">
+				<li style="text-align:center" class="list_inline"> 
+					<b><a href="file:///Users/Jerry/Documents/GithubCode/website/html/about.html" class="navbar_link_homepage">About Me</a></b>
+				</li>
+				<li style="text-align:center" class="list_inline"> 
+					<b><a href="file:///Users/Jerry/Documents/GithubCode/website/html/blog.html" class="navbar_link_homepage">Blog</a></b> 
+				</li>
+				<li style="text-align:center" class="list_inline"> 
+					<b><a href="file:///Users/Jerry/Documents/GithubCode/website/html/data_science_progression.html" class="navbar_link_homepage">Data Science</a></b> 
+				</li>
+				<li style="text-align:center" class="list_inline"> 
+					<b><a href="file:///Users/Jerry/Documents/GithubCode/website/html/notes.html" class="navbar_link_homepage">Notes</a></b>
+				</li>
+			</ul>
+
+			<ul class="social_media"> 
+				<li class="social_media_item"> 
+					<a class="sm_a" href="https://www.linkedin.com/in/jerry-ye-xu/"><i class="fab fa-linkedin-in fa-lg" id="linkedin" aria-hidden="true"></i></a>
+				</li>
+				<li class="social_media_item"> 
+					<a class="sm_a" href="https://github.com/jerry-ye-xu"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+				</li>
+				<li class="social_media_item"> 
+					<a class="sm_a" href="mailto:jerryxu2500@gmail.com"><div class="gmail"></div></a>
+				</li>
+				<li class="social_media_item" id="Wechat_modal_link"> 
+					<a class="sm_a" href="file:///Users/Jerry/Documents/GithubCode/website/html/home.html#">
+						<i class="fab fa-weixin fa-lg" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li class="social_media_item"> 
+					<a id="gmail2" class="sm_a" href="mailto:jerryxu2500@gmail.com"><div class="gmail"></div></a>
+				</li>
+			</ul>
+
+			<div id="modal_WeChat" class="modal">
+			  	<!-- Modal content -->
+				<!-- Modal content -->
+				<div class="WeChat_QR">
+					<span class="close">×</span>
+					
+						<p id="modal_message">Add me as a friend on Wechat! Scan the QR code below</p>
+					
+						<img src="./Home Page_files/QR_code.jpg" id="QR_code" alt="WeChat_QR_code" align="center">
+
+				</div>
+			</div>
+
+		</div>
+
+		<script>
+			// Get the modal
+			var modal_WeChat = document.getElementById('modal_WeChat');
+
+			// Get the button that opens the modal
+			var Wechat_modal_link = document.getElementById("Wechat_modal_link");
+
+			// Get the <span> element that closes the modal
+			var span = document.getElementsByClassName("close")[0];
+
+			// When the user clicks the button, open the modal 
+			Wechat_modal_link.onclick = function() {
+			  modal_WeChat.style.display = "block";
+			}
+
+			// When the user clicks on <span> (x), close the modal
+			span.onclick = function() {
+			  modal_WeChat.style.display = "none";
+			}
+
+			// When the user clicks anywhere outside of the modal, close it
+			window.onclick = function(event) {
+			  if (event.target == modal_WeChat) {
+			    modal_WeChat.style.display = "none";
+			  }
+			}
+		</script>
+
+	
+</body></html>

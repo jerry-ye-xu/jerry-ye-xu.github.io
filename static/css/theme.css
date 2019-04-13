@@ -1,0 +1,901 @@
+:root {
+	--color_blue: 153, 255, 255;
+	--color_purple: 199, 175, 189;
+	--color_yellow: 248, 242, 218;
+	--color_black: 	72,	68, 82;
+	/*
+	#C7AFBD
+
+	-- for more colour information use:
+	https://www.colorhexa.com/dd4b39
+	*/
+}
+body {
+	/*
+	background-color: black;
+	background-color: rgba(var(--color), 0.1);
+	*/
+	background-color: #F8F9FA;
+	margin-left: 0px;
+	margin-top: 0% !important;
+	margin-right: 0px;
+	margin-bottom: 10% !important;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body.home_body {
+	/*
+	background-color: #F8F9FA;
+	background-image: url("../images/Tm9oS90.jpg");
+	background-color: rgba(var(--color_yellow), 0.10);
+	*/
+	background-color: #F8F9FA;
+
+	margin-top: 0% !important;
+	margin-bottom: 0% !important;
+
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+	/* Photo by RawPixel on Unsplash 
+	background-image: url("../images/rawpixel_unsplash.jpg");
+	background-size: cover;
+	*/
+
+	background-image: url("../images/");
+	background-size: cover;
+
+}
+
+div.home_block {
+	
+	/*
+	background-color: rgba(var(--color_purple), 0.25);
+	*/
+	margin-top: 10%;
+	margin-bottom: 6.77%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	max-width: 100%;
+	height: auto;
+
+	padding: 0px;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+iframe {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	color: #484452;
+	font-family: Trebuchet MS;
+	margin: 15px 35px 15px 35px;
+	
+	/*
+	text-align: center;
+	*/
+}
+
+h1, h2, h3 {
+	font-style: none;
+	font-family: Arial Black;
+	text-align: center;
+}
+
+h1.h_home_page {
+	margin-bottom: 20px;
+	color: rgba(var(--color_black), 1.0);
+}
+
+h2.h_home_page {
+	margin-bottom: 20px;
+	color: rgba(var(--color_black), 1.0);
+}
+
+h3.h_home_page {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+table {
+	max-width: 100%;
+	border-collapse: collapse;
+
+}
+
+th {
+	font-weight: bold;
+}
+
+th, td {
+	padding: 8px;
+	text-align: center;
+	border: 2px solid black;
+}
+
+.row {
+	padding: 0px;
+	margin: 0px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.leftcolumn {
+	float: left;
+	background-color: rgba(var(--color_black), 0.85);
+	padding-left: 5px;
+	padding-top: 80px;
+	padding-right: 5px;
+	height: 100%;
+	/*
+	height: 100vh;
+	background-color: #C7AFBD;
+	*/
+	width: 17.5%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+
+	position: fixed; /* Make it stick, even on scroll */
+}
+
+.mainbody_column {
+	/*
+	display: block;
+	*/
+	float: right;
+	width: 77.5%;
+	margin: 0px 0px 0px 0px;
+	padding: 15px;
+	background-color: #F8F9FA;
+	
+	/*
+	background-color: #F8F2DA;
+	background-color: rgba(var(--color), 0.2);
+	*/
+}
+
+/*
+.block {
+	text-align: center;
+	background-color: grey;
+	max-width: 40%;
+	height: auto;
+	margin: 0px auto; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 20px;
+	border-radius: 15px 50px 30px;
+}
+Used for putting profile picture and navagation bar 
+*/
+
+p.h_home_page {
+	text-align: center;
+	display: block;
+	position: relative;
+	
+	color: rgba(var(--color_black), 0.85);
+
+	border-style: solid;
+  	border-color: rgba(var(--color_black), 0.85);
+  	border-width: 2.5px;
+
+  	border-left: none;
+  	border-right: none;
+
+  	padding-top: 10.5px;
+  	padding-bottom: 10.5px;
+
+  	font-size: 20px;
+
+  	margin-top: 15px;
+  	margin-left: 25.5%;
+  	margin-right: 25.5%;
+}
+
+ul.navbar{
+	position: relative; /* Make it stick, even on scroll */
+  	overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  	list-style-type: none;
+  	max-width: 100%;
+	height: auto;
+	margin: 5% 10% 5% 10%;
+  	padding: 8px 4px 8px 4px;
+
+	/*
+	margin-top: 4%;
+	margin-left: 10%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: rgba(var(--color_purple), 0.65);
+	*/
+}
+
+ul.navbar_homepage{
+	/*
+	position: relative; 
+  	overflow: auto; 
+  	display: inline-block;
+  	*/
+  	text-align: center;
+  	display: block;
+  	position: relative;
+  	list-style-type: none;
+  	overflow: auto;
+  	max-width: 100%;
+	height: auto;
+	margin: 2.5% 10% 2.5% 10%;
+  	padding: 5px;
+
+}
+
+li.navbar_item {
+  	text-align: center;
+  	max-width: 100%;
+  	display: block;
+
+  	/*
+  	padding: 8px 4px 8px 4px;
+  	margin: 2px;
+  	*/
+}
+
+/*
+Put both "list" and "a" tags for hover, and 
+this allows you to change their font colour. 
+*/
+
+li.list_inline {
+	display: inline;
+	padding: 2px 2px 2px 2px;
+	margin: 5px;
+
+	border-right: 1px black solid;
+	border-spacing: 0px
+	
+}
+
+li.list_inline:last-child{
+	border-right: none;
+}
+
+li.navbar_item a.navbar_link:hover {
+  background-color: rgba(var(--color_black), 1.0);
+  
+  /*
+  color: black;
+  */
+}
+
+a.navbar_link {
+  display: block;
+  padding: 12px 6px 12px 6px;
+  color: white;
+  /* this padding changes the size of the hover IF we have li a:hover ;
+  padding: 8px 4px 8px 4px; 
+   */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/*
+a.navbar_link:hover {
+ 	color: black;
+}
+*/
+
+a.navbar_link_homepage{
+  display: inline;
+  color: #000;
+  padding: 8px 4px 8px 4px;
+  text-decoration: none;
+
+  font-size: 18px;
+}
+
+.center_table {
+	margin-left:auto;
+	margin-right:auto; 
+}
+
+/*
+
+search pseudo-classes 
+
+tr:nth-child(even) {
+	background-color: #E0B0FF;
+} 
+
+tr:hover {
+	background-color: #f5f5f5;
+}
+
+*/
+
+ul.social_media {
+	text-align: center;
+	position: relative;
+	padding: 10px;
+	margin-top: 5%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	list-style-type: none;
+}
+
+li.social_media_item{
+	display: inline-block;
+	position: relative;
+	margin: -17px 35px;
+	/* 
+	Went to negative margin in order to squeeze the Gmail logo
+	and other fontawesome logos together. 
+
+	I can upon this hack whilst trying to fix the issue for a 
+	long time. 
+
+	Turns out you can fix this by resetting the margins 
+	(see ul.social_media li.social_media_item a.sm_a .fab)
+	*/
+
+}
+
+ul.social_media li.social_media_item a.sm_a .fab{
+	font-size: 25px;
+	line-height: 50px; /* moves the icon down */
+	transition: 0.5s;
+	-webkit-backface-visibility: hidden; 
+
+
+	/*
+	Turns out you can fix this by resetting the .fab class 
+	positioning and display properties. (Haven't tested this
+	rigorously yet though...)
+	*/
+
+	/* 
+	display: flex;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	margin-top: 50%;
+	margin-left: 50%; 
+	transition: 0.5s;
+	transform: translate(-50%, -50%);
+	*/
+}
+
+
+.fab{
+	color: black;
+}
+
+ul.social_media li.social_media_item a.sm_a .far{
+	font-size: 25px;
+	transition: 0.5s;
+	line-height: 50px; /* moves the icon down */
+
+	-webkit-backface-visibility: hidden; 	
+}
+
+.far{
+	color: black;
+}
+
+ul.social_media li.social_media_item a.sm_a .gmail{
+	display: flex;
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 50%; 
+	transition: 0.5s;
+	transform: translate(-50%, -50%);
+
+	/*
+	display: flex;
+	position: absolute;
+
+	margin-top: 50%;
+	margin-left: 50%; 
+	transform: translate(-50%, -50%);
+	line-height: 50px; moves the icon down 
+	*/
+}
+
+ul.social_media li.social_media_item a.sm_a {
+	/*
+	text-align: center;
+	*/
+	background-color: #FEFEFE;
+	position: flex;
+	display: block;
+	width:  50px;
+	height: 50px;
+	transform: perspective(1000px) rotate(-30deg) skew(25deg);
+	transition: 0.5s;
+	-webkit-backface-visibility: hidden; 
+	box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+
+	/*
+	box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.5);
+	border-top: 0.1px solid black;
+	border-right: 0.1px solid black;
+	*/
+}
+
+ul.social_media li.social_media_item a.sm_a:before {
+	content: '';
+	position: absolute;
+	top: 10px;
+	left: -20px;
+	height: 100%;
+	width: 20px;
+	background: #BEBEBE; /* #BEBEBE #CBCBCB #D7D7D7 */
+	transition: 0.5s;
+	-webkit-backface-visibility: hidden; 
+	transform:  rotate(0deg) skewY(-45deg);
+}
+
+ul.social_media li.social_media_item a.sm_a:after {
+	content: '';
+	position: absolute;
+	bottom: -20px;
+	left: -10px;
+	height: 20px;
+	width: 50px;
+	background: #D7D7D7; 
+	transition: 0.5s;
+	-webkit-backface-visibility: hidden;
+	/* -webkit-transform-style: preserve-3d; */
+	transform:  rotate(0deg) skewX(-45deg);
+}
+
+/* Creating the Gmail Logo */
+
+/*
+Credit: Captain Anonymous on CodePen.io;
+*/
+
+.gmail{
+	background: black;
+	position: absolute;
+	width:30px;
+	height:20px;
+	border-radius:4px;
+}
+
+.gmail:after{
+	content:'';
+	position:absolute;
+	left:4px;
+	top:5.5px;
+	border-bottom:7.5px solid white;
+	border-left:11px solid white;
+	border-right:11px solid white;
+	border-top:6px solid transparent;
+	/*
+	*/
+	width:0;
+
+	transition: 0.5s;
+}
+
+.gmail:before{
+	content:'';
+	position:absolute;
+	left:3.5px;
+	top:1px;
+	border-top:6.5px solid white;
+	border-left:11.5px solid transparent;
+	border-right:11.5px solid transparent;
+	width:0;
+
+	transition: 0.5s;
+}
+
+ul.social_media li.social_media_item a.sm_a:hover {
+	transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(10px, -10px);
+	box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.5);
+	
+	/*
+	border-top: none;
+	border-right: none;
+	*/
+}
+
+ul.social_media li.social_media_item:hover .fab {
+	color: white;
+}
+
+ul.social_media li.social_media_item:hover .far {
+	color: white;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(1) a.sm_a {
+	background: #0077B5;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(1) a.sm_a:before {
+	background: #005582;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(1) a.sm_a:after {
+	background: #0088CF;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(2) a.sm_a {
+	background: #333333;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(2) a.sm_a:before {
+	background: #1A1A1A;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(2) a.sm_a:after {
+	background: #404040;
+}
+
+/* shades of red --> 		  #C23321, C71610 & #E15F4F */
+/* Google Plus --> 			  #B23121 #D44638 #E15F4F */
+/* Gmail skin color tones --> #DFDCC6 #E8E6D6 #F1F0E6 #FAFAF7*/
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a {
+	background: #E41F1A; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:before {
+	background: #B61915; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:after {
+	background: #E73530;
+} 
+
+/*
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a {
+	background: #FAFAFA; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:before {
+	background: #FAFAFA; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:after {
+	background: #F7F7F7;
+}
+*/
+
+ul.social_media li.social_media_item:hover:nth-child(4) a.sm_a {
+	background: #09B83E;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(4) a.sm_a:before {
+	background: #07872E;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(4) a.sm_a:after {
+	background: #0AD046;
+}
+
+/* RED COLOUR GMAIL LOGO */
+
+ul.social_media li.social_media_item:hover .gmail{
+	margin:4px auto;
+	background: white;
+	width:30px;
+	height:20px;
+	border-radius:4px;
+	position:relative;
+}
+
+ul.social_media li.social_media_item:hover .gmail:after {
+	content:'';
+	position:absolute;
+	left:4px;
+	top:5.5px;
+	border-bottom: 7.5px solid #E41F1A; /* !!IMPORTANT: in order to create the outline effect, reduce border when hovering */
+	border-left:11px solid #E41F1A;
+	border-right:11px solid #E41F1A;
+	width:0;
+
+	transition: 0.5s;
+}
+
+ul.social_media li.social_media_item:hover .gmail:before{
+	content:'';
+	position:absolute;
+	left:3.5px;
+	top:1px; /* !!IMPORTANT: in order to create the outline effect, we reduce border by 1px */
+	border-top:6.5px solid #E41F1A;
+	border-left:11.5px solid white;
+	border-right:11.5px solid white;
+	width:0;
+
+} 
+
+/*********************/
+/* SKIN COLOUR GMAIL */
+/*********************/
+
+ul.social_media li.social_media_item a#gmail2.sm_a .gmail {
+	display: flex;
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 50%; 
+	transition: 0.5s;
+	transform: translate(-50%, -50%);
+
+	/*
+	display: flex;
+	position: absolute;
+
+	margin-top: 50%;
+	margin-left: 50%; 
+	transform: translate(-50%, -50%);
+	line-height: 50px; moves the icon down 
+	*/
+}
+
+ul.social_media li.social_media_item:hover #gmail2 .gmail{
+	margin:4px auto;
+	background: #E41F1A; 
+	width:30px;
+	height:20px;
+	border-radius:4px;
+	position:relative;
+	/*
+	border: 1px solid #F1F0E6;
+	*/
+}
+
+ul.social_media li.social_media_item:hover #gmail2 .gmail:after {
+	content:'';
+	position:absolute;
+	left:4px;
+	top:5.5px;
+	border-bottom: 7.5px solid #F1F0E6; /* !!IMPORTANT: in order to create the outline effect, reduce border when hovering */
+	border-left:11px solid #F1F0E6;
+	border-right:11px solid #F1F0E6;
+	width:0;
+
+	transition: 0.5s;
+}
+
+ul.social_media li.social_media_item:hover #gmail2 .gmail:before {
+	content:'';
+	position:absolute;
+	left:3.5px;
+	top:1px; /* !!IMPORTANT: in order to create the outline effect, we reduce border by 1px */
+	border-top:6.5px solid #F1F0E6;
+	border-left:11.5px solid #E41F1A; 
+	border-right:11.5px solid #E41F1A; 
+	width:0;
+
+}
+
+ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a {
+	background: #F1F0E6; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a:before {
+	background: #DFDCC6; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a:after {
+	background: #FAFAF7;
+} 
+
+/***************************/
+/* MODAL WINDOW FOR WECHAT */
+/***************************/
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 5%; /* Location of the box */
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	left: 0;
+	top: 0;
+	/*
+	overflow: auto; 
+	/* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.WeChat_QR {
+	background-color: #FEFEFE;
+	position: relative;
+	/*
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	*/ 
+	margin: auto;
+	padding: 10px;
+	border: 1px solid #888;
+	width: 70%;
+	height: 80%;
+}
+
+img#QR_code {
+	position: relative;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+	overflow: hidden;
+	max-width:80%;
+	max-height:80%;
+
+	/*
+	max-width:100%;
+	max-height:100%;
+	*/
+
+
+	/* This does not work? */
+	/*
+	object-position: 50% 50%;
+	object-fit: contain;
+	*/
+}
+
+p#modal_message {
+	text-align: center;
+	position: absolute;
+	top:  5%;
+	left: 25%;
+	right: 25%;
+	transform: translate(-0%, -0%);
+	color: #484452;
+	font-family: Trebuchet MS;
+	margin: 15px 35px 15px 35px;
+}
+
+
+/* The Close Button */
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.year_sem {
+  background-color: #C3B091;
+  color: black;
+  font-weight:bold;	
+}
+
+.form {
+	text-align:left;
+}
+
+#notice {
+	margin: 25px 5px;
+	font-family:Comic Sans MS;
+	font-weight:bold;
+	color:red;
+	font-size:125%;
+}
+
+#profile_picture {
+	height: auto;
+	position: relative;
+	display: block;
+	border-radius:  50%;
+	margin-left:auto;
+	margin-right:auto; 
+	max-width: 45%;
+
+	overflow: hidden;
+
+	padding-top: 7.5px;
+	padding-bottom: 7.5px;
+	padding-right: 7.5px;
+	padding-left: 7.5px;
+
+	/*
+	margin-left:auto;
+	margin-right:auto; 
+	margin-left: 50%;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	max-width: 70%;	
+	display: block;
+	border-radius: 15px 50px 30px;
+
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	*/
+}
+
+#profile_picture_homepage {
+	height: auto;
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	margin-left:auto;
+	margin-right:auto; 
+	max-width: 15%;
+
+	border-style: solid;
+  	border-color: black;
+  	border-width: 2.5px;
+
+	overflow: auto;
+
+	/*
+	padding-top: 20px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	*/
+}
+
+#profile_picture:hover {
+	background-color: rgba(var(--color_black), 1.0);
+}
+
+#profile_picture_homepage:hover {
+	background-color: rgba(var(--color_black), 1.0);
+}
+
+
+.video_wrapper_wrapper {
+	color: black;
+	width: 500;
+	height: 450;
+}
+
+.video_wrapper {
+	margin: 5% 0% 0% 5%;
+	text-align: center;
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 0px;
+	height: 0;
+}
+
+.video_wrapper iframe {
+	position: absolute;
+	top: 0%;
+	left: 6.5%;
+	width: 75%;
+	height: 70%;
+}
+

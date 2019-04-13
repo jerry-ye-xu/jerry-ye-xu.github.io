@@ -1,0 +1,157 @@
+/* original stylesheet for Gmail logo */
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a {
+	background: #E41F1A; /* shades of red --> #C23321, C71610 & #E15F4F */
+} /* Google Plus --> #B23121 #D44638 #E15F4F*/
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:before {
+	background: #B61915; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:after {
+	background: #E73530;
+}
+
+/* Creating the Gmail Logo */
+
+/*
+Credit: Captain Anonymous on CodePen.io;
+*/
+
+.gmail{
+	margin:4px auto;
+	background: black;
+	width:30px;
+	height:20px;
+	border-radius:4px;
+	position:relative;
+}
+
+.gmail:after{
+	content:'';
+	position:absolute;
+	left:4px;
+	top:5.5px;
+	border-bottom:7.5px solid white;
+	border-left:11px solid white;
+	border-right:11px solid white;
+	border-top:6px solid transparent;
+	/*
+	*/
+	width:0;
+
+	transition: 0.5s;
+}
+
+.gmail:before{
+	content:'';
+	position:absolute;
+	left:3.5px;
+	top:1px;
+	border-top:6.5px solid #E8E6D6;
+	border-left:11.5px solid transparent;
+	border-right:11.5px solid transparent;
+	width:0;
+
+	transition: 0.5s;
+}
+
+ul.social_media li.social_media_item a.sm_a .gmail{
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 50%; 
+	line-height: 50px; /* moves the icon down */
+	transform: translate(-50%, -50%);
+
+	transition: 0.5s;
+
+	/*
+	border-top: 0.25px solid black;
+  	border-bottom: 0.25px solid black;
+	*/
+}
+
+ul.social_media li.social_media_item:hover .gmail{
+	margin:4px auto;
+	background: white;
+	width:30px;
+	height:20px;
+	border-radius:4px;
+	position:relative;
+}
+
+ul.social_media li.social_media_item:hover .gmail:after {
+	content:'';
+	position:absolute;
+	left:4px;
+	top:5.5px;
+	border-bottom: 7.5px solid #E41F1A; /* !!IMPORTANT: in order to create the outline effect, reduce border when hovering */
+	border-left:11px solid #E41F1A;
+	border-right:11px solid #E41F1A;
+	width:0;
+
+	transition: 0.5s;
+}
+
+ul.social_media li.social_media_item:hover .gmail:before{
+	content:'';
+	position:absolute;
+	left:3.5px;
+	top:1px; /* !!IMPORTANT: in order to create the outline effect, we reduce border by 1px */
+	border-top:6.5px solid #E41F1A;
+	border-left:11.5px solid white;
+	border-right:11.5px solid white;
+	width:0;
+
+} 
+
+/* SKIN COLOUR BACKGROUND */
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a {
+	background: #F1F0E6; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:before {
+	background: #DFDCC6; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(3) a.sm_a:after {
+	background: #FAFAF7;
+}
+
+ul.social_media li.social_media_item:hover .gmail{
+	margin:4px auto;
+	background: #E41F1A; 
+	width:30px;
+	height:20px;
+	border-radius:4px;
+	position:relative;
+	/*
+	border: 1px solid #F1F0E6;
+	*/
+}
+
+ul.social_media li.social_media_item:hover .gmail:after {
+	content:'';
+	position:absolute;
+	left:4px;
+	top:5.5px;
+	border-bottom: 7.5px solid #F1F0E6; /* !!IMPORTANT: in order to create the outline effect, reduce border when hovering */
+	border-left:11px solid #F1F0E6;
+	border-right:11px solid #F1F0E6;
+	width:0;
+
+	transition: 0.5s;
+}
+
+ul.social_media li.social_media_item:hover .gmail:before{
+	content:'';
+	position:absolute;
+	left:3.5px;
+	top:1px; /* !!IMPORTANT: in order to create the outline effect, we reduce border by 1px */
+	border-top:6.5px solid #F1F0E6;
+	border-left:11.5px solid #E41F1A; 
+	border-right:11.5px solid #E41F1A; 
+	width:0;
+
+} 
