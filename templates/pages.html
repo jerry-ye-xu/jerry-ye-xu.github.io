@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<head> 
+
+		{% if title %}
+			<title> Data Descent - {{ title }} </title>
+		{% else %}
+			<title> Data Descent </title>
+		{% endif %}
+
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/webpage.css') }}">
+
+		<!-- 
+			Bootstrap
+		-->
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+
+	</head>	
+
+	<body>
+		<div class="leftcolumn"> </div>	
+		<div class="leftcolumn" id="leftcolumn_background"> 
+			<a href="home.html"><img src="../static/images/linkedin_dp.jpg" alt="Profile Picture" align="center" id="profile_picture"></a>
+
+			<!-- For some reason, Chrome doesn't detect ul.navbar when I'm using flask. So I had to add in the style here directly -->
+			<ul class="navbar">
+				<li style="text-align:center" class="navbar_item"> 
+					<b><a href="home" class="navbar_link">Home</a></b>
+				</li>
+				<li style="text-align:center" class="navbar_item"> 
+					<b><a href="about" class="navbar_link">About Me</a></b> 
+				</li>
+				<li style="text-align:center" class="navbar_item"> 
+					<b><a href="blog" class="navbar_link">Blog</a></b> 
+				</li>
+				<li style="text-align:center" class="navbar_item"> 
+					<b><a href="data_science_career" class="navbar_link"> Data Science </a></b> 
+				</li>
+				<li style="text-align:center" class="navbar_item"> 
+					<b><a href="notes.html" class="navbar_link">Notes</a></b> 
+				</li>
+			</ul>
+		</div>
+
+		<div class="mainbody_column"> 
+			{% block content %}
+
+			{% endblock %}
+		</div>
+
+		<div class="rightcolumn"> </div>
+		<div class="rightcolumn" id="rightcolumn_background"> 
+			{% block right_column %}
+
+			{% endblock %}
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+	</body>
+</html>
