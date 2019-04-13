@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head> 
+
+		<title> Data Descent - Home Page </title>
+		
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="../stylesheets/theme.css">
+
+	</head>	
+
+	<body>
+		<!-- <title> Gradient Zone </title> -->
+		<!-- The <title> tag is only allowed in the -->
+
+		<header>
+			<h1 id="title"> Data Descent </h1>
+
+		<header>
+
+		<p><b>Hi! Welcome to Jerry's <ins>Chill zone!<ins></b><br></p>
+
+		<div> <img src="../images/Jerry_licking_lollipop.jpeg" alt="Profile Picture" width="190" height="210" align="center" id="profile_picture"></div><br>
+
+		<!-- <p><strong style="color:red;font-size:125%" id="notice"> </strong></p> -->
+
+		<p id="notice"> This website contains blog posts, links and a set of STAT3913 notes. </p>
+
+		<p id="test"> So I've been wanting to do this for a while, but actually I'm getting started now! </p>
+
+		<div style="text-align:center">
+			<button id="button_test">Change Text!</button>
+		</div>
+
+		<p> The <em>\<\p\></em> tag is for paragraph, so this is the 2<sup>nd</sup> one?</p>
+
+		<hr>
+
+		<div> Sup? <br> <del>I don't know how this actually works but ok. </del> </div> <br>
+
+		<strong><ins> Navigation </strong></ins>
+
+		<ul>
+			<li> Home Page  		 </li>
+			<li> About Me   		 </li>
+			<li> Blog Posts 		 </li>
+			<li> Recommended Reading </li>
+			<li> Notes 				 </li>
+		</ul>
+
+		<strong><ins> Blog Post Ideas </strong></ins>
+		<ol start="1" type="1">
+			<li> Porting R Code to Python  		 </li>
+			<li>  Advanced Pandas Techniques (correlation, lambda GroupBy, filter, multi-level indexing, reading multiple Python files)   		 </li>
+			<li> Bootstrapping Methods 		 </li>
+			<li value="5"> Upsampling Techniques in R (Notice how I skipped 4 muhahahaha)</li>
+			<li> Rigorous EDA </li>
+			<li> Manual Logistic Regression 				 </li>
+		</ol>
+
+		<hr> 
+
+		<strong>Fill out your form!</strong>
+		<form>
+			<p class="form"><strong>First Name:</strong> <input type="text" placeholder="e.g. Jane"></p>
+			<p class="form"><strong>Last  Name:</strong> <input type="text" placeholder="e.g. Citizen"></p>
+			<p class="form"><strong>Degree</strong> 
+				<select>
+					<option selected> Commerce (Business Analytics)</option>
+					<option>Commerce (Other)</option>
+					<option>Actuarial Studies></option>
+					<option>Science (Math/CS)</option>
+					<option>Science (Other)</option>
+					<option>Arts (Economics/Econometrics/Financial Economics)</option>
+					<option>Arts (Other)</option>
+					<option>Engineering</option>
+					<option>Design/Architecture</option>
+					<option>Other</option>
+				</select>
+			</p>
+			<strong>What year are you in?</strong>
+			<p class="form">1<sup>st</sup> Year <input type="radio" name="year"></p>
+			<p class="form">2<sup>nd</sup> Year <input type="radio" name="year"></p>
+			<p class="form">3<sup>rd</sup> Year <input type="radio" name="year"></p>
+			<p class="form">4<sup>th</sup> Year <input type="radio" name="year"></p>
+			<p class="form">5<sup>th</sup> Year <input type="radio" name="year"></p>
+
+			<strong>Favourite Subject so far?</strong>
+			<p class="form">Unit of Study Code: <input type="text"></p>
+			<p class="form">Unit of Study Name: <input type="text"></p>
+
+			<p class="form">Receive updates when I write a new post!<input type="checkbox" checked> </p>
+			
+			<p class="form"><input type="submit" value="I'm done!"></p>
+		</form>
+
+			<p>For Sydney university students interested in <strong>data science</strong>, I suggest this <a href="data_science_progression.html">progression</a> for a sample 3 year degree.</p>
+
+		<p>做为一个男人你没有权利要求你爱的女人陪你一起受苦</p>	
+
+		<p><a href="#title">Back to top</a></p>
+
+		<!--
+		<script> document.getElementById("test").innerHTML = "TEST!"
+
+		</script>
+		-->
+
+		<script>
+			document.getElementById("button_test").onclick = function() {
+				document.getElementById("test").innerHTML = 'Well now I know a tiny bit about JavaScript.';
+			};
+		</script>
+
+	</body>
+</html>
