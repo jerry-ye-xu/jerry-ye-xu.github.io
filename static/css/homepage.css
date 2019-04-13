@@ -479,6 +479,30 @@ ul.social_media li.social_media_item:hover:nth-child(4) a.sm_a:after {
 	background: #0AD046;
 }
 
+ul.social_media li.social_media_item:hover:nth-child(4) a.sm_a {
+	background: #09B83E;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(4) a.sm_a:before {
+	background: #07872E;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(4) a.sm_a:after {
+	background: #0AD046;
+}
+
+ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a {
+	background: #0D0D0D; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a:before {
+	background: #000000; 
+} 
+
+ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a:after {
+	background: #1A1A1A;  
+}
+
 /* RED COLOUR GMAIL LOGO */
 
 ul.social_media li.social_media_item:hover .gmail{
@@ -575,6 +599,8 @@ ul.social_media li.social_media_item:hover #gmail2 .gmail:before {
 
 }
 
+
+/*
 ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a {
 	background: #F1F0E6; 
 } 
@@ -584,9 +610,10 @@ ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a:before {
 } 
 
 ul.social_media li.social_media_item:hover:nth-child(5) a.sm_a:after {
-	background: #F1F0E7; 
-	/* #FAFAF7 */
-} 
+	background: #F1F0E7;  
+}
+#FAFAF7 -- delete this if you use it
+*/
 
 /***************************/
 /* MODAL WINDOW FOR WECHAT */
