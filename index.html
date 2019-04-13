@@ -10,7 +10,10 @@
 		<link rel="stylesheet" type="text/css" href="./static/css/homepage.css">
 
 
-		<link rel="stylesheet" href="./fontawesome/css/all.css">	
+		<link rel="stylesheet" type="text/css" href="./fontawesome/css/all.css">	
+		
+
+		<!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/homepage.css') }}"> -->
 
 		<!-- 
 			Used for social media icons
@@ -42,14 +45,14 @@
 
 				<ul class="navbar_homepage">
 					<li style="text-align:center" class="list_inline"> 
-						<b><a href="./templates/about" 
+						<b><a href="./templates/about.html" 
 							class="navbar_link_homepage">About Me</a></b>
 					</li>
 					<li style="text-align:center" class="list_inline"> 
-						<b><a href="./templates/blog" class="navbar_link_homepage">Blog</a></b> 
+						<b><a href="./templates/blog.html" class="navbar_link_homepage">Blog</a></b> 
 					</li>
 					<li style="text-align:center" class="list_inline"> 
-						<b><a href="./templates/data_science_career" class="navbar_link_homepage">Data Science</a></b> 
+						<b><a href="./templates/data_science_career.html" class="navbar_link_homepage">Data Science</a></b> 
 					</li>
 					<li style="text-align:center" class="list_inline"> 
 						<b><a href="./static/images/statistical_inference.pdf" class="navbar_link_homepage">Notes</a></b>
