@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Jerry Xu
+tagline:          'Statistics & Computer Science'
+description:      'University student studying math, stats and cs. People say I have to narrow my focus. I say that is no fun.' 
+url:              http://hyde.getpoole.com
+baseurl:          http://jerry-ye-xu.github.io/
+
+author:        
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
