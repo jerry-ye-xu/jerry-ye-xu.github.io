@@ -4,7 +4,7 @@ title: About Me
 ---
 
 <p class="message">
-  Hey there! Welcome to my website. I blog about statistics and computer science here, and write about other things on [Medium](https://medium.com/@jerry_ye_xu)
+  Hey there! Welcome to my website. I blog about statistics and computer science here, and write about other things on <a href="https://medium.com/@jerry_ye_xu">Medium</a>.
 </p>
 
 ### Hello!
