@@ -4,27 +4,25 @@ title: About Me
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+  Hey there! Welcome to my website. I blog about statistics and computer science here, and write about other things on [Medium](https://medium.com/@jerry_ye_xu)
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+### Hello!
 
-There are currently two themes built on Poole:
+I'm currently working full-time at Commonwealth Bank and studying part-time at Sydney university. My nights are focused on studying computer science and math, and I also have an interest in Asia's tech space, especially China. 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I studied Japanese in school and speak fluent Mandarin.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+### What I am up to
 
-## Setup
+At Commonwealth Bank I work as a data scientist, building and  deploying web applications and applying machine learning to solve data science problems. 
 
-Some fun facts about the setup of this project include:
+On the theoretical side, I really enjoy the math, diving into computer science and dabbing into Bayesian statistics. 
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
+During an off-day you will definitely find me doing bag work or rolling on the mats. =) 
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are __The Tim Ferris Show__, __Disrupting Japan__, and __China Tech Talk__. 
 
-Thanks for reading!
+Disclaimer: I am not affiliated nor compensated in any form. 
+
+### Don't hesitate to reach out! 
