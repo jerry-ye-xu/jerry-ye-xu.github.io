@@ -10,8 +10,8 @@ relative_permalinks: false
 title:            Jerry Xu
 tagline:          'Statistics & Computer Science'
 description:      'University student studying math, stats and cs. People say I have to narrow my focus. I say that is no fun.' 
-url:              http://hyde.getpoole.com
-baseurl:          http://jerry-ye-xu.github.io/
+url:              http://jerry-ye-xu.github.io/
+baseurl:          /
 
 author:        
   name:           'Mark Otto'
