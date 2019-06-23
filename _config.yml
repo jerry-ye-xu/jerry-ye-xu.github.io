@@ -4,7 +4,7 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: false
+plugins:          [jekyll-paginate, jekyll-gist]
 
 # Setup
 title:            Jerry Xu
