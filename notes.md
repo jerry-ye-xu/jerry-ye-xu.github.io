@@ -15,5 +15,5 @@ I would love any feedback of course.
 
 __Version Notation__
 
-d - draft
+d - draft <br>
 p - published
