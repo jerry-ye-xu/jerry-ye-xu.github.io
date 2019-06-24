@@ -13,6 +13,8 @@ Below are some notes I have written for my own self-study. To be best of my abil
 
 I would love any feedback of course. 
 
+--- 
+
 __Version Notation__
 
 d - draft <br>
