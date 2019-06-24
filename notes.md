@@ -7,8 +7,13 @@ Below are some notes I have written for my own self-study. To be best of my abil
 
 <ul>
 	<li>
- 		<a href="/notes/statistical_inference.pdf">STAT3913: Statistical Inference (Advanced)</a>
+ 		<a href="/notes/statistical_inference.pdf">STAT3913: Statistical Inference (Advanced) [d-1.0.0]</a>
 	</li>
 </ul>
 
 I would love any feedback of course. 
+
+__Version Notation__
+
+d - draft
+p - published

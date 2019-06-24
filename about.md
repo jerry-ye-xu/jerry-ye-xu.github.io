@@ -9,6 +9,10 @@ title: About Me
 
 ### Hello!
 
+<img src="/public/dp.jpg" alt="Profile Picture" align="center" style="border-radius:50%;border-style: solid;
+  	border-color:black;border-width: 1.5px;">
+
+
 I'm currently working full-time at Commonwealth Bank and studying part-time at Sydney university. My nights are focused on studying computer science and math, and I also have an interest in Asia's tech space, especially China. 
 
 I studied Japanese in school and speak fluent Mandarin.
