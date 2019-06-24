@@ -15,13 +15,13 @@ I studied Japanese in school and speak fluent Mandarin.
 
 ### What I am up to
 
-At Commonwealth Bank I work as a data scientist, building and  deploying web applications and applying machine learning to solve data science problems. 
+At Commonwealth Bank I work as a data scientist, building and deploying web applications and applying machine learning to solve data science problems. 
 
-On the theoretical side, I really enjoy the math, diving into computer science and dabbing into Bayesian statistics. 
+On the theoretical frton, I am currently studying math and computer science, whilst dabbing into Bayesian statistics through self-study.
 
 During an off-day you will definitely find me doing bag work or rolling on the mats. =) 
 
-I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are __The Tim Ferris Show__, __Disrupting Japan__, and __China Tech Talk__. 
+I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are The Tim Ferris Show, Disrupting Japan, and China Tech Talk. 
 
 Disclaimer: I am not affiliated nor compensated in any form. 
 
