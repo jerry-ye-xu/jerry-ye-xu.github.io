@@ -9,7 +9,9 @@ title: About Me
 
 ### Hello!
 
-<img src="/public/dp.jpg" sizes="250x250" alt="Profile Picture" align="center" style="position:relative;display:block;border-radius:90%;border-style:solid;border-color:black;border-width: 2.5px;">
+<p align="center">
+	<img src="/public/dp.jpg" width="250" height="250" alt="Profile Picture" align="center" style="position:relative;display:block;border-radius:90%;border-style:solid;border-color:black;border-width: 2.5px;">
+</p>
 
 
 I'm currently working full-time at Commonwealth Bank and studying part-time at Sydney university. My nights are focused on studying computer science and math, and I also have an interest in Asia's tech space, especially China. 
