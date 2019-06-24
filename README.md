@@ -8,7 +8,8 @@ Feel free to look around. The website is [here]("https://jerry-ye-xu.github.io/"
 ## Contents
 
 - [Introduction](#introduction)
-- [Options](#options)
+- [About Me](#about-me)
+- [Installing Jekyll](#installing-jekyll)
 - [Author](#author)
 - [About Hyde](#about-hyde)
   - [Acknowledgements](#acknowledgements)
@@ -23,6 +24,30 @@ This is a Jekyll based website and pages are written in Markdown and fit into th
 
 This means that writing blog posts is relatively easier because we simply use markdown for all our blog posts and not have to worry. 
 
+## Installing jekyll
+
+Instructions may be different for non-MacOS users.
+
+To test locally, you first need to install jekyll
+```
+gem install jekyll
+```
+If you run into issues with `FilePermissionsError`, then you will need to set up `rbenv` properly.
+```
+brew install rbenv
+```
+and follow the instructions [here]("https://github.com/rbenv/rbenv").
+
+If you run into issues with `shims`, you may need to manually export it in your terminal. 
+```
+export PATH="/Users/Jerry/.rbenv/shims:${PATH}"
+```
+Which is copied directly from Line 1 of the `init` file
+
+You can view the `init` file using
+```
+rbenv init -
+```
 --- 
 
 ## Author 
