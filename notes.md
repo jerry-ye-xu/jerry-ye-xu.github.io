@@ -11,7 +11,7 @@ Below are some notes I have written for my own self-study. To be best of my abil
 	</li>
 </ul>
 
-I would love any feedback of course. 
+I would love to hear any feedback. 
 
 --- 
 
