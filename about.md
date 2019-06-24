@@ -25,4 +25,4 @@ I also happen to be a huge fan of podcasts, having hosted one in a prior life. M
 
 Disclaimer: I am not affiliated nor compensated in any form. 
 
-### Don't hesitate to reach out! 
+<h3>Don't hesitate to <a href="mailto:jerryxu2500@gmail.com">reach out!</a><h3>
