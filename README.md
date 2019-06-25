@@ -48,6 +48,24 @@ You can view the `init` file using
 ```
 rbenv init -
 ```
+
+## Using MathJax
+
+In order to use MathJax to type math, you will need to add the script below to `head.html` inside the `_includes/` directory.
+
+```
+<!-- MathJax -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    inlineMath: [['$','$']]
+  }
+});
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+```
+
 --- 
 
 ## Author 
@@ -79,6 +97,8 @@ Open sourced under the [MIT license](LICENSE.md).
 <3
 
 ---
+
 ### WORKLOG
+- 25/6/19: 0.0.3 - Added MathJax, updated about me page with photo.
 - 24/6/19: 0.0.2 - Added data science for students page, revised README.md page. 
 - 23/6/19: 0.0.1 - Initial commit, removed all relative links and updated about me page.
