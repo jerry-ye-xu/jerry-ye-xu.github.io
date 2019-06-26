@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notes
+toc: False
 ---
 
 Below are some notes I have written for my own self-study. To be best of my ability I have tried to approach them as if I was teaching future undergraduate students and providing them with an easy read during commutes.

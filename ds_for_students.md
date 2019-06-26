@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Data Science for Students
+toc: True
 ---
 
 Hi there!
