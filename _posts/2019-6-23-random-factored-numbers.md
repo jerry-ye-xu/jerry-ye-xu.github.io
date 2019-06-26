@@ -1,10 +1,10 @@
 ---
-
 layout: post
 title: Generating Prime Factored Numbers
 toc: true
 ---
 
+<!-- Need this for table of contents above -->
 ---
 
 ## Prime Factored Numbers
