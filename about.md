@@ -21,7 +21,7 @@ I studied Japanese in school and speak fluent Mandarin.
 
 At Commonwealth Bank I work as a data scientist, building and deploying web applications and applying machine learning to solve data science problems. 
 
-On the theoretical frton, I am currently studying math and computer science, whilst dabbing into Bayesian statistics through self-study.
+I am currently studying math and computer science at USyd whilst dabbing into Bayesian statistics through self-study.
 
 During an off-day you will definitely find me doing bag work or rolling on the mats. =) 
 

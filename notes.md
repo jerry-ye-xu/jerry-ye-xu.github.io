@@ -10,10 +10,10 @@ Below are some notes I have written for my own self-study. To be best of my abil
  		<a href="/notes/statistical_inference.pdf">STAT3913: Statistical Inference (Advanced) [d-1.0.0]</a>
 	</li>
 <!-- 	<li>
- 		<a href="/notes/linear_algebra.pdf">MATH2922: Linear and Abstract Algebra (Advanced) [dh-1.0.0]</a>
+ 		<a href="/notes/linear_algebra.pdf">MATH2922: Linear and Abstract Algebra (Advanced), Selected Topics [dh-1.0.0]</a>
 	</li>
 	<li>
- 		<a href="/notes/algorithms.pdf">COMP3927: Algorithm Design (Advanced) [dh-1.0.0]</a>
+ 		<a href="/notes/algorithms.pdf">COMP3927: Algorithm Design (Advanced) Selected Topics [dh-1.0.0]</a>
 	</li> -->
 </ul>
 

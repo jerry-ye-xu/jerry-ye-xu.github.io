@@ -4,12 +4,12 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-plugins:          [jekyll-paginate, jekyll-gist]
+plugins:          [jekyll-paginate, jekyll-gist, jekyll-toc]
 
 # Setup
 title:            Jerry Xu
 tagline:          'Statistics & Computer Science'
-description:      'University student studying math, stats and cs. People say I have to narrow my focus. I say that is no fun.' 
+description:      'University student studying math, stats and cs. Exploring multiple rabbit holes.' 
 url:              http://jerry-ye-xu.github.io/
 baseurl:          /
 
@@ -20,7 +20,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          1.0.1
 
 github:           https://github.com/jerry-ye-xu/
 repo:             https://github.com/jerry-ye-xu/jerry-ye-xu.github.io
