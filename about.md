@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-toc: False
+toc: True
 ---
 
 <p class="message">
@@ -30,4 +30,4 @@ I also happen to be a huge fan of podcasts, having hosted one in a prior life. M
 
 Disclaimer: I am not affiliated nor compensated in any form. 
 
-<h3>Don't hesitate to <a href="mailto:jerryxu2500@gmail.com">reach out!</a><h3>
+<h3 class="no_toc">Don't hesitate to <a href="mailto:jerryxu2500@gmail.com">reach out!</a></h3>

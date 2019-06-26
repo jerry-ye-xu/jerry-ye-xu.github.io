@@ -4,6 +4,9 @@ title: Data Science for Students
 toc: True
 ---
 
+<!-- Need this for table of contents above -->
+---
+
 Hi there!
 
 Are you an undergraduate student thinking about doing data science? 

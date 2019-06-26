@@ -4,7 +4,10 @@ highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
-plugins:          [jekyll-paginate, jekyll-gist, jekyll-toc]
+plugins:          
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-toc
 
 # Setup
 title:            Jerry Xu
