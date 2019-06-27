@@ -38,15 +38,17 @@ If I were to interpret data science in the context of the value it could potenti
 1. Uncover hidden value from existing products/services
 1. Be the analytical backbone of certain software applications 
 
-So how is that relevant to a student like yourself that is looking for a job in data science? Well, I can say that studying the right subjects will certainly help you stand out. 
+So how is that relevant to a student like yourself that is looking for a job in data science?
+
+Well, I can say that studying the right subjects will certainly help you stand out. 
 
 ### Making the most of your university degree
 
-The hardest part of your uni degree is that fact that you have to juggle many disciplines and schools of thought. You would be surprised though, to find out that just about everything you study in these 3 disciplines will be intertwined in some way. 
+The hardest part of your uni degree is juggling many disciplines of thought. You would be surprised though, to find that just about everything you study in these 3 disciplines will be intertwined in some way. 
 
-If this is your calling, you will find alot of enjoyment as you piece the puzzle together yourself. 
+If this is your calling, you will find alot of enjoyment piecing the puzzle together. 
 
-If you are heavily into the theoretical side and want to be involved in research, prioritising a major in pure math and may provide a stronger foundation.
+If you are heavily into theoretical ideas and want to be involved in research, prioritising a major in pure math and may provide a stronger foundation.
 
 Below is a table of subjects that I, given hindsight, would have taken during my undergraduate studies. This is the subject choice for Sydney University, and it is likely that you will find corresponding subjects at other universities.
 
@@ -65,14 +67,24 @@ You can find the relevant handbooks [here]("https://sydney.edu.au/handbooks/scie
 
 Note: This is purely my own opinion. You do not have to do all of these subjects. Feel free to mix and match with your own interests. Also, some of the subject combinations can be extremely challenging. You may want to shuffle it around, especially 2nd year semester 1. 
 
-Note 2: Of course, there are other math combinations that lean more towards pure math, like abstract algebra, complex analysis etc.
+Note 2: Of course, there are other math combinations that lean more towards pure math like abstract algebra, complex analysis etc.
 
 Note 3: The curriculum may have been updated since this post has been published. You should check the university handbooks for the relevant subjects. 
 
 Note 4: This subject list does not cover some other areas, like decision and information theory, asymptotics and stohastic processes, econometrics or even engineering disciplines etc. etc. where much of this is applied in a specific context. 
 
+### Extra-curricular
+
+Your university degree is going to be challenging, but I have friends who do 5 subjects in these 3 disciplines and somehow survive so there's no reason not to indulge in extra-curricular. 
+
+Aside from being involved in your math/stats/cs societies, the most helpful experiences I've had was running them. From recruiting to organising, I definitely learnt alot about working in a team. 
+
+In a lighter semester, I would recommend doing consulting in a consulting society like 180 Degrees, BusinessOne or UMCG (UNSW only?) etc. etc. 
+
+In the future you are likely to be working with people from all disciplines, and the value of learning business skills cannot be understated. Whilst not everyone appreciates what you can do, it is important for you to appreciate what other people can do. And I think that starts from having an open mind about the skills needed to operate in a different paradigm. 
+
 ### Final Thoughts
 
 My journey into data science has been as eye-opening as it is intellectually rewarding. Whatever your goals are, I hope my advice here will help you get closer to them.
 
-Good luck, and enjoy the roller coaster because it ain't stoppin' anytime soon.
+Good luck, and enjoy the roller coaster because it ain't stoppin' anytime soon. =)
