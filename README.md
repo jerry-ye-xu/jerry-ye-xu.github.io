@@ -10,11 +10,13 @@ Feel free to look around. The website is [here]("https://jerry-ye-xu.github.io/"
 - [Introduction](#introduction)
 - [About Me](#about-me)
 - [Installing Jekyll](#installing-jekyll)
+- [Using MathJax](#using-mathjax)
+- [Adding ToC](#adding-toc)
+- [Shadow](#shadow)
 - [Author](#author)
 - [About Hyde](#about-hyde)
   - [Acknowledgements](#acknowledgements)
   - [License](#license)
-
 
 ## About me
 
@@ -24,7 +26,7 @@ This is a Jekyll based website and pages are written in Markdown and fit into th
 
 This means that writing blog posts is relatively easier because we simply use markdown for all our blog posts and not have to worry. 
 
-## Installing jekyll
+## Installing Jekyll
 
 Instructions may be different for non-MacOS users.
 
@@ -84,7 +86,7 @@ Jerry Xu
 
 ---
 
-Lastly I wanted to thank the author of Hyde for making such a wonderful theme for the community. Details can be found below. 
+Lastly I wanted to thank the author of Hyde & Poole for making such a wonderful theme for the community. Details can be found below. 
 
 ## About Hyde
 
