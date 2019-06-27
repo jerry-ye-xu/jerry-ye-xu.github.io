@@ -9,17 +9,18 @@ layout: default
   <h2>Table of Contents</h2>
   {{ content | toc }}
 
-  <hr>
-  <h2>Table of Contents</h2>
+  <!-- <hr> -->
+  
+<!--   <h2>Table of Contents</h2>
   <div id="table-of-contents">
     {% toc %}
-  </div>
+  </div> -->
 </div>
 
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
+    {% for post in site.related_posts limit: 3 %}
       <li>
         <h3>
           <a href="{{ post.url }}">
