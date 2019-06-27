@@ -42,9 +42,11 @@ So how is that relevant to a student like yourself that is looking for a job in 
 
 Well, I can say that studying the right subjects will certainly help you stand out. 
 
-### Making the most of your university degree
+### University degrees
 
-The hardest part of your uni degree is juggling many disciplines of thought. You would be surprised though, to find that just about everything you study in these 3 disciplines will be intertwined in some way. 
+I recommend doing a combination of mathematics, statistics and computer science. This is probably an unpopular opinion, but I think most data science degrees are almost too practical and too broad. Whilst in university, focus on the theory and dive as deep as you can because if you get stuck you can ask for help. Trust me, you're going to get stuck somewhere. Practical skills can be learned during internships and hobby projects.
+
+The hardest part of this uni degree is juggling many disciplines of thought. You would be surprised though, to find that just about everything you study in these 3 disciplines will be intertwined in some way. 
 
 If this is your calling, you will find alot of enjoyment piecing the puzzle together. 
 
