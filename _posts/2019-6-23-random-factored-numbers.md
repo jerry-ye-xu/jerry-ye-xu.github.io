@@ -4,6 +4,9 @@ title: Generating Prime Factored Numbers
 toc: true
 ---
 
+* TOC
+{:toc}
+
 <!-- Need this for table of contents above -->
 ---
 

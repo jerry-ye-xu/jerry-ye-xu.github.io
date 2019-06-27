@@ -4,8 +4,11 @@ title: Data Science for Students
 toc: True
 ---
 
+* TOC
+{:toc}
+
 <!-- Need this for table of contents above -->
-<!-- --- -->
+---
 
 Hi there!
 
