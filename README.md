@@ -72,6 +72,10 @@ Check these guys out [here](https://github.com/toshimaru/jekyll-toc) and follow 
 
 UPDATE: The above does not work with Kramdown & Github Pages... the solution is to use [this](http://www.seanbuscay.com/blog/jekyll-toc-markdown/)
 
+## Shadow
+
+The shadow I used can be found [here](https://codepen.io/ibrahimjabbari/pen/ozinB).
+
 --- 
 
 ## Author 
@@ -105,6 +109,7 @@ Open sourced under the [MIT license](LICENSE.md).
 ---
 
 ### WORKLOG
+- 27/6/19: 0.0.4 - Get ToC working, added shadow to separate posts in home page. 
 - 25/6/19: 0.0.3 - Added MathJax, updated about me page with photo.
 - 24/6/19: 0.0.2 - Added data science for students page, revised README.md page. 
 - 23/6/19: 0.0.1 - Initial commit, removed all relative links and updated about me page.
