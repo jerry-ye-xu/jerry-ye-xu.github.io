@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Data Science for Students
-toc: True
 ---
+
+---
+<h2 class="no_toc">Table of Contents</h2>
 
 * TOC
 {:toc}
