@@ -70,6 +70,8 @@ MathJax.Hub.Config({
 
 Check these guys out [here](https://github.com/toshimaru/jekyll-toc) and follow instructions =).
 
+UPDATE: The above does not work with Kramdown & Github Pages... the solution is to use [this](http://www.seanbuscay.com/blog/jekyll-toc-markdown/)
+
 --- 
 
 ## Author 
