@@ -12,7 +12,7 @@ plugins:
 # Setup
 title:            Jerry Xu
 tagline:          'Statistics & Computer Science'
-description:      'University student studying math, stats and cs. Exploring multiple rabbit holes.' 
+description:      'Exploring multiple rabbit holes. Math, stats and cs.' 
 url:              http://jerry-ye-xu.github.io/
 baseurl:          /
 
