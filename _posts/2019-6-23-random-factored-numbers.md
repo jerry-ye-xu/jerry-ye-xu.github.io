@@ -6,6 +6,7 @@ title: Generating Prime Factored Numbers
 ---
 <h2 class="no_toc">Table of Contents</h2>
 
+* TOC
 {:toc}
 
 <!-- Need this for table of contents above -->
