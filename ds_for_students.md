@@ -40,11 +40,11 @@ If I were to interpret data science in the context of the value it could potenti
 
 So how is that relevant to a student like yourself that is looking for a job in data science?
 
-Well, I can say that studying the right subjects will certainly help you stand out. 
+Well, I can only say that studying the right subjects at university will
 
 ### University degrees
 
-I recommend doing a combination of mathematics, statistics and computer science. This is probably an unpopular opinion, but I think most data science degrees are almost too practical and too broad. Whilst in university, focus on the theory and dive as deep as you can because if you get stuck you can ask for help. Trust me, you're going to get stuck somewhere. Practical skills can be learned during internships and hobby projects.
+If you have a genuine interest in data science, I would recommend doing a combination of mathematics, statistics and computer science subjects. This is probably an unpopular opinion, but I think most data science degrees are almost too practical and too broad. Whilst in university, focus on the theory and dive as deep as you can because if you get stuck you can ask for help. Trust me, you're going to get stuck somewhere. Practical skills can be learned during internships and hobby projects.
 
 The hardest part of this uni degree is juggling many disciplines of thought. You would be surprised though, to find that just about everything you study in these 3 disciplines will be intertwined in some way. 
 
@@ -74,6 +74,8 @@ Note 2: Of course, there are other math combinations that lean more towards pure
 Note 3: The curriculum may have been updated since this post has been published. You should check the university handbooks for the relevant subjects. 
 
 Note 4: This subject list does not cover some other areas, like decision and information theory, asymptotics and stohastic processes, econometrics or even engineering disciplines etc. etc. where much of this is applied in a specific context. 
+
+Note 5: Do the degree that interests you the most, be it engineering or neuroscience. If you have an interest in anything data, I would recommend doing a combination of mathematics, statistics and computer science subjects for electives.
 
 ### Extra-curricular
 
