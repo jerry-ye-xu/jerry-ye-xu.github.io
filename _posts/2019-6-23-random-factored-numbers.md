@@ -101,15 +101,16 @@ Now, we look at the expected number of restarts. First of all, the probability o
 
 $$
 \begin{align}
-	P\left[\text{reject}\right] & = 1 - \prod_{s\in S_{G}}\left(1-\frac{1}{s_{i}}\right)
+	P\left[\text{reject}\right] & = 1 - \sum_{s\in S} P\left[\text{outputting all posssible} \; s^{*}\right]\\\\
+		& = 1 - \prod_{s\in S}\left(1-\frac{1}{s_{i}}\right)
 \end{align}
 $$
 
-And it turns out that
+Because the output of each $s^{\*}$ is independent, we sum the probabilities. And it turns out that
 
 $$
 \begin{align}
-	E\left[\text{# of rejections}\right] & = \frac{1}{1 - \prod_{s\in S_{G}}\left(1-\frac{1}{s_{i}}\right)} \\\\
+	E\left[\text{# of rejections}\right] & = \frac{1}{\prod_{s\in S}\left(1-\frac{1}{s_{i}}\right)} \\\\
 			& = O(\log N)
 \end{align}
 $$
