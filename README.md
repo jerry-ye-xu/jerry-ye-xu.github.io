@@ -111,6 +111,7 @@ Open sourced under the [MIT license](LICENSE.md).
 ---
 
 ### WORKLOG
+- 04/7/19: 0.0.5 - Added blog post page to show all past blog posts, added tags and categories.  
 - 27/6/19: 0.0.4 - Get ToC working, added shadow to separate posts in home page. 
 - 25/6/19: 0.0.3 - Added MathJax, updated about me page with photo.
 - 24/6/19: 0.0.2 - Added data science for students page, revised README.md page. 

@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Generating Prime Factored Numbers
+category: Computer Science
+categories: ['randomised algorithms', 'prime numbers']
+tags: ['randomised algorithms', 'prime numbers']
 ---
 
 ---

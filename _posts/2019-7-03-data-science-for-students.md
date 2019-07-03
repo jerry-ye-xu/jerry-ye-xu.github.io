@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Data Science for Students
+category: Miscellaneous
+categories: ['data science', 'studies']
+tags: ['data science', 'studies']
 ---
 
 ---
