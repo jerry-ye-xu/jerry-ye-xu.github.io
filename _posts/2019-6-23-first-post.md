@@ -1,6 +1,9 @@
 ---
 layout: post
 title: First Post
+category: First Post
+categories: ['first post']
+tags: ['first post']
 ---
 
 Hi there!
