@@ -20,7 +20,7 @@ toc: False
 
 My name is Jerry, a data science graduate at Commonwealth Bank and part-time student at Sydney university.
 
-Prior to CommBank I worked at a startup called Hivery on data engineering and time series modelling. 
+Prior to CommBank I worked at a startup called Hivery on data engineering and time series modelling. I also was part of the founding team of ANOVA Project, where we worked with startups and not-for-profits.
 
 2 years ago after wrapping up podcasting I discovered data science and all her friends, and the rest has yet to be written =). 
 
