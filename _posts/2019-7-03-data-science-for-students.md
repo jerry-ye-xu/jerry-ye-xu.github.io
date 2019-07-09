@@ -43,7 +43,7 @@ If I were to interpret data science in the context of the value it could potenti
 
 So how is that relevant to a student like yourself that is looking for a job in data science?
 
-Well, I can only say that studying the right subjects at university will
+Well, I can only say that studying the right subjects at university is the first step to a great data science career!
 
 ### University degrees
 
