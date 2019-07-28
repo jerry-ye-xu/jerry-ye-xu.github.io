@@ -30,7 +30,7 @@ I also keep an eye out for Asia's tech space, especially China. I studied Japane
 
 At CommBank I work as a data scientist, building applications and applying machine learning to solve problems. 
 
-I am currently studying math and computer science at USyd whilst dabbing into Bayesian statistics through self-study.
+I am currently studying math and computer science at USyd whilst dabbing into Bayesian statistics and time series through self-study.
 
 During an off-day you will definitely find me doing bag work or rolling on the mats. =) 
 
