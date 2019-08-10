@@ -5,7 +5,7 @@ category: Posts
 tags: ['post', 'archive']
 ---
 
-Here is an archive of all the blog posts on this site. It is grouped in ascending chronological order based on category.
+Here is an archive of all the blog posts on this site. It is grouped in descending chronological order based on category.
 
 <h2 class="no_toc">Categories</h2>
 
