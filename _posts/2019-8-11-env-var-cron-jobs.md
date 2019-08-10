@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Environment Variables for CRON Jobs
+title: Environment Variables for Cron Jobs
 category: Computer Science
 categories: ['cron', 'xbash', 'nifty tricks']
 tags: ['cron', 'bash', 'nifty tricks']
