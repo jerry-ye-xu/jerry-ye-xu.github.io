@@ -44,7 +44,7 @@ If you want it to be run at 10pm everyday, you would have
 0 22 * * * script.sh
 ```
 
-## Accessing Environment Variables
+## Accessing environment variables
 
 This post is about how to deal with the fact cron sets up a minimal shell environment to run the jobs, so when you execute a script that requires a environment variable from your usual shell in the command line, it won't work.
 
@@ -64,7 +64,7 @@ printenv
 
 You can `cat` the output of `printenv` to a file and export it to the cron shell when executing the script.
 
-## Minimal Working Example
+## Minimal working example
 
 Let's give it a try with a simple example. 
 

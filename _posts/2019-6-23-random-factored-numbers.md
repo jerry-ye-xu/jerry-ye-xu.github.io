@@ -15,7 +15,7 @@ tags: ['randomised algorithms', 'prime numbers']
 <!-- Need this for table of contents above -->
 ---
 
-## Prime Factored Numbers
+## Prime factored numbers
 
 Today we're going to look at generating random numbers as a product of its prime factors. 
 
@@ -35,7 +35,7 @@ We cannot generate a number and then factorise it in a reasonable time, so inste
 
 Let's look at the algorithm. It is deceptively simple.
 
-## The Algorithm
+## The algorithm
 
 Let $N$ be the upper bound integer from which to sample random numbers $s^{\*} \in \mathbb{N^{+}}$. 
 
@@ -52,7 +52,7 @@ For each iteration:
 Notice that without loss of generality we state that $N \geq s_{1} \geq s_{2} \cdots \geq s_{k} = 1$.  
 
 
-## Probabilistic Justification 
+## Probabilistic justification 
 
 Let's look at the probability of generating multiple $N$'s. It turns out that a single $N$ occurs with probability $\frac{1}{N}$, and multiple $N$'s occur with probability $\frac{1}{N^{m}}\left\(1-\frac{1}{N}\right\)$. The $1-\frac{1}{N}$ represents the moment when $N$ is not chosen, and from then on $N$ can never be chosen again because now we have a smaller sequence to work with. 
 
@@ -88,7 +88,7 @@ $$
 
 Now, we use rejection sampling in step 3 because we want the probability of outputting $s^{\*}$ to be uniform. 
 
-## Time Complexity
+## Time complexity
 
 To understand the time complexity, we look at 2 components. First we need to test each $s_{i}$ for primality, and the length of the sequence also matters. Then we need to know how often this algorithm is going to restart.
 

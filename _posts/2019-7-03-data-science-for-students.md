@@ -90,7 +90,7 @@ In a lighter semester, I would recommend doing consulting in a consulting societ
 
 In the future you are likely to be working with people from all disciplines, and the value of learning business skills cannot be understated. Whilst not everyone appreciates what you can do, it is important for you to appreciate what other people can do. And I think that starts from having an open mind about the skills needed to operate in a different paradigm. 
 
-### Final Thoughts
+### Final thoughts
 
 My journey into data science has been as eye-opening as it is intellectually rewarding. Whatever your goals are, I hope my advice here will help you get closer to them.
 
