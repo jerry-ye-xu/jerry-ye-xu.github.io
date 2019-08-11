@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Running R in Python with `R2py`  
+title: Running R in Python with `Rpy2`  
 category: Data Science
 categories: ['R', 'R2py', 'eda', 'programming']
 tags: ['R', 'R2py', 'eda', 'programming']
