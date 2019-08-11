@@ -93,7 +93,7 @@ numpy2ri.activate()
 If you try running the code above, the returned object will be a `np.ndarray`
 
 ```python
-[0.9750021]
+[1.9750021]
 ```
 
 and you still will have to be careful because the '+ 1' will be element-wise addition! 
