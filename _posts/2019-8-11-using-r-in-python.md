@@ -119,7 +119,7 @@ utils.install_packages("forecast")
 
 However, when I tried this I ran into problems so I would recommend to install packages using R. 
 
-First, we write a R function, store it as a string and save it to a Python variable.
+We write a R function, store it as a string and save it to a Python variable.
 
 ```python
  
