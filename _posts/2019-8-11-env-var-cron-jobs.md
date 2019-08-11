@@ -27,20 +27,20 @@ In one of our projects, we have to refresh our data twice a day to ensure end us
 
 We automate this by scheduling a cron job that calls the script at a specified time. You usually put all your cron jobs in a file called `crontab`. A single job will look something like
 
-```{bash}
+```bash
 * * * * * script.sh
 ```
 
 The above 5 asterisks represent a time frame - minute, hour, day of month, month and day of week respectively. So if you wanted to run a command at 3:15am every Sunday, it would look like
 
-```{bash}
+```bash
 15 3 * * 0 script.sh
 ```
 Sunday is denoted by 0, Monday by 1 up until Saturday which is 6.
 
 If you want it to be run at 10pm everyday, you would have 
 
-```{bash}
+```bash
 0 22 * * * script.sh
 ```
 
@@ -56,7 +56,7 @@ In some cases the `PATH` variable was also different.
 
 It turns out that we can easily access our environment variables with
 
-```{bash}
+```bash
 printenv
 ```
 
@@ -70,13 +70,13 @@ Let's give it a try with a simple example.
 
 Schedule your cron job inside your `crontab` file by first opening it with
 
-```{bash}
+```bash
 env EDITOR=vim crontab -e 
 ``` 
 
 and add the cron job like below
  
-```{bash}
+```bash
 */1 * * * * script.sh > /tmp/cron_logs.txt 2>&1
 ```
 
@@ -84,13 +84,13 @@ We schedule the job to run every minute so we can check our code and see if it w
 
 Check if your crontab has succcessfully added a new job with
 
-```{bash}
+```bash
 crontab -l
 ```
 
 Suppose you need the `TEST_VAR` variable for your cron job. If this is not sensitive then you can `cat` it to a file. Let's create the variable and save it to a file:
 
-```{bash}
+```bash
 export TEST_VAR=test_var
 printenv | grep "TEST_VAR" > /tmp/env_var.txt
 ```
@@ -99,7 +99,7 @@ Now let's create a cron job that requires `TEST_VAR`.
 
 Your `script.sh` would look something like this:
 
-```{bash}
+```bash
 #!/bin/bash 
 
 set -e 
@@ -127,7 +127,7 @@ __Note2:__ You should never export all your environment variables. Cron likes to
 
 When you `unset TEST_VAR` in the command line, the next cronjob should fail with an error message. 
 
-```{bash}
+```bash
 unset TEST_VAR=test_var
 printenv | grep "TEST_VAR" > /tmp/env_var.txt
 ```
