@@ -21,15 +21,13 @@ Although a mature ML practitioner should be comfortable with both Python and R, 
 
 Python was my first data science language, and I must confess that I usually have the TidyVerse cheatsheet open (amongst others) whenever I use R to do exploratory analysis. 
 
-Despite Python being so useful because of their high level frameworks that have abstracted away the details, one quickly realises that in certain areas R still remains king for data analysis.
+R can be very useful for time series analysis. The `statsmodels` library in Python whilst useful, has documentation that is vague at best. It assumes that you already know what is going on. 
 
-An example of this would be time series analysis. The `statsmodels` library, whilst useful, has documentation that is vague at best. It assumes that you already know what is going on. 
+To the best of my knowledge there is no function in Python that automatically fits an ARIMA model in R. As a result, we have people writing [7 inner `for` loops](https://kaggle.com/kruthik93/utilizing-arima-to-forecast-uber-s-market-demand) to try and find an optimal SARIMAX model via grid search. 
 
-To the best of my knowledge there is no function in Python that automatically fits an ARIMA model in R. As a result, we have enthusiasts writing [7 inner `for` loops](https://kaggle.com/kruthik93/utilizing-arima-to-forecast-uber-s-market-demand) to try and find an optimal SARIMAX model via grid search. 
+Sometimes it's just better to use a convenient function like `auto.arima()`, which only exists in R.
 
-Sometimes it's just better to use R a convenient function like `auto.arima()`. 
-
-We begin with how to set up `rpy2` and a simple example. Despite being so simple, one must tread carefully because the behaviour of converting objects between 2 languages can be unexpected. 
+We begin with how to set up `rpy2` and a simple example. Despite being so simple, one must tread carefully because when converting objects between 2 languages, the behaviour can be unexpected. 
 
 ## Setting up Rpy2
 
@@ -51,7 +49,7 @@ q = pnorm(1.96)
 
 As you might know, `pnorm` will return a Gaussian CDF given the quantile, which is 0.975.
 
-Now, let's say you wanted to manipulate this with some arithmetic.
+Now let's say you wanted to manipulate this with some arithmetic.
 
 ```python
 q_prime = q + 1
@@ -98,7 +96,7 @@ If you try running the code above, the returned object will be a `np.ndarray`
 
 and you still will have to be careful because the '+ 1' will be element-wise addition! 
 
-As you can imagine this can be 'fun' to debug if you make assumptions about the behaviour of returned R objects.
+As you can imagine, this can be 'fun' to debug if you assume that returned R objects will behave like Python objects.
 
 __You have been warned.__
 
