@@ -35,10 +35,11 @@ So first we load in the data
 import pandas as pd
 from matplotlib import pyplot as plt
 
-pos = pd.read_csv("./data/sales.csv")
-print(pos.shape)
+pos = pd.read_csv("../data/sales.csv")
 pos.head()
 ```
+
+
 
 We have a daily timestamp of sales for many products across multiple stores. We want to aggregate the data by store, and look at the price-demand correlation matrix for all products. 
 
@@ -64,8 +65,8 @@ This will give us a matrix
 
 $$
 \begin{pmatrix}
-D vs. D & D vs. P \\
-D vs. P & P vs. P 
+D \,vs. D & D \,vs. P \\
+D \,vs. P & P \,vs. P 
 \end{pmatrix}
 $$
 
@@ -81,7 +82,7 @@ gives us what we want.
 
 Not all products will have a strong correlation, so we elect to keep the products with strong correlations only. 
 
-Let's visualise the relationship using a heatmap. To make it easier to identify strong correlations, we plot correlations $|x| > 0.4$.
+Let's visualise the relationship using a heatmap. To make it easier to identify strong correlations, we plot correlations $\lvert x\rvert > 0.4$.
 
 ```python
 pr_de_high_corr_only = de_pr_corr.applymap(
