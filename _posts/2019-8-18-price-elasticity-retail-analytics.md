@@ -39,7 +39,7 @@ pos = pd.read_csv("../data/sales.csv")
 pos.head()
 ```
 
-
+![pos DataFrame](../public/pos_df.png)
 
 We have a daily timestamp of sales for many products across multiple stores. We want to aggregate the data by store, and look at the price-demand correlation matrix for all products. 
 
@@ -66,7 +66,7 @@ This will give us a matrix
 $$
 \begin{pmatrix}
 D \,vs. D & D \,vs. P \\
-D \,vs. P & P \,vs. P 
+P \,vs. D & P \,vs. P 
 \end{pmatrix}
 $$
 
@@ -82,7 +82,7 @@ gives us what we want.
 
 Not all products will have a strong correlation, so we elect to keep the products with strong correlations only. 
 
-Let's visualise the relationship using a heatmap. To make it easier to identify strong correlations, we plot correlations $\lvert x\rvert > 0.4$.
+Let's visualise the relationship using a heatmap. To make it easier to identify strong correlations, we plot correlations where $\lvert x\rvert > 0.4$.
 
 ```python
 pr_de_high_corr_only = de_pr_corr.applymap(
@@ -93,18 +93,11 @@ plt.imshow(pr_de_high_corr_only, cmap=plt.cm.twilight_shifted)
 plt.colorbar(im)
 ```
 
-
-### Demand Modelling 
-
-With the new price-elasticity matrix we can now incorporate the price changes of highly correlated products to model the demand for a particular product. 
-
-We establish a baseline using linear regression with the original features. 
-
-Let's see if applying the prices of highly correlated products can improve our model
+![correlation heatmap](../public/correlation_matrix.png)
 
 
 ### Conclusion
 
-There's alot more you can here of course. However, utilising price-elasticity is a common technique to account for the relationship between multiple products. 
+There's alot more you can do here of course. However, utilising price-elasticity is a common technique to account for the relationship between multiple products. 
 
-There's many things you can try with an exercise like this - more complicated models, utilise time series methods (uni and multivariate) or even LSTMs if you are after prediction power. 
+You can start incorporating this information but first baselining with linear regressions and then moving on to more complicated models, utilise time series methods or even LSTMs.
