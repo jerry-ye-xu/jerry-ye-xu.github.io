@@ -73,7 +73,7 @@ $$
 If we are only considering price-elasticity, then taking
 
 ```python
-rc = price_demand.shape # (110, 110)
+rc = price_demand.shape
 
 de_pr_corr = price_demand.iloc[0:(rc[0]/2), (rc[0]/2):column]
 ```
