@@ -24,8 +24,7 @@ The main type of retail data is __point of sales__ (POS) data, which is essentia
 
 You can think of sales for an individual product over time as a single time series, but there usually exists a cross-elasticity relationship between products. This relationship can be <good> or <bad>, and one of the challenges is being able to apply this relationship to improve accuracy of our models. 
 
-Today we're going to look at how we can apply cross-elasticity to our demand models to improve forecasting outcomes. 
-
+Today we're going to look at how to quickly build a correlation matrix so that we can incorporate it into our modelling process. 
 
 ### Building the Correlation Matrix
 
@@ -41,7 +40,7 @@ pos.head()
 
 ![pos DataFrame](../public/pos_df.png)
 
-We have a daily timestamp of sales for many products across multiple stores. We want to aggregate the data by store, and look at the price-demand correlation matrix for all products. 
+We have a daily timestamp of sales for many products.. We want to look at the price-demand correlation matrix for all products. 
 
 To do this, we take advantage of the `pivot` function in pandas. We create pivot tables of both the price and demand for all products. We can then concatenate them and call `corr`.
 
@@ -70,6 +69,8 @@ P \,vs. D & P \,vs. P
 \end{pmatrix}
 $$
 
+where `D` is the sales (demand) and `P` is the price. 
+
 If we are only considering price-elasticity, then taking
 
 ```python
@@ -82,7 +83,7 @@ gives us what we want.
 
 Not all products will have a strong correlation, so we elect to keep the products with strong correlations only. 
 
-Let's visualise the relationship using a heatmap. To make it easier to identify strong correlations, we plot correlations where $\lvert x\rvert > 0.4$.
+Let's visualise the relationships using a heatmap. To make it easier to identify strong correlations, we only plot correlations where $\lvert x\rvert > 0.4$.
 
 ```python
 pr_de_high_corr_only = de_pr_corr.applymap(
@@ -98,6 +99,10 @@ plt.colorbar(im)
 
 ### Conclusion
 
-There's alot more you can do here of course. However, utilising price-elasticity is a common technique to account for the relationship between multiple products. 
+Utilising price-elasticity features to model the relationship between multiple products is very common in retail.  
 
-You can start incorporating this information but first baselining with linear regressions and then moving on to more complicated models, utilise time series methods or even LSTMs.
+With this correlation matrix you can identiy which products to incorporate into your analysis. You should choose only the strongly correlated products, which means that some products will have many price variables whilst others very few. 
+
+You can start by first baselining with linear regressions and incorporating price-demand variables to see how much improve there is. 
+
+Once you're good with that, consider moving on to more complicated models, utilising time series methods (V/ARIMA) or even LSTMs.
