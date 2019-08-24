@@ -29,25 +29,34 @@ So what the basic form of an optimisation problem? Well, it comes in 2 parts.
 
 The first part you need is an objective. Suppose you program a robot to go buy food at the supermarket for as little money as possible. If the robot has infinite cash then it will simply buy every item in the supermarket. Hence, you also need a second part - the constraints. For example, you can tell the robot to buy only 2L of milk, not to spend more than 30 dollars on snacks and get lots and lots of vegetables =).
 
-To formalise this, we define an __objective function__ (sometimes called a cost function) $c \colon \mathcal{F} \rightarrow \mathbb{R}$ that can be used to determine the quality of the outcome. Then we define a __set of feasible solutions__ $\mathcal{F}$ for which the aim is to determine the set of solutions with optimal cost. 
+To formalise this, we define a __set of feasible solutions__ $\mathcal{F}$ where each feasible solution is a possible outcome of the optimisation. 
+
+To determine which solution is the best one, we define an 
+
+__objective function__ (sometimes called a cost function) $c \colon \mathcal{F} \rightarrow \mathbb{R}$. In most cases we create a function that is designed so that the linear program minimises the cost.
 
 Now let's talk about linear programming. 
 
 ## What is a linear program?
 
-A \textbf{linear program (LP)} is a type of optimisation problem, defined by a system of linear inequalities that constrain our variables when trying to optimise for an objective. 
+A __linear program (LP)__ is a type of optimisation problem, defined by a system of linear inequalities that constrain our variables when trying to optimise for an objective. 
 
 Formally we define a cost function
+
 $$
-\begin{align*}
+\begin{align}
     \text{min}\left[\textbf{c}\cdot \textbf{x}\right]
-\end{align*}
+\end{align}
 $$
+
 with constraints
+
 $$
-\begin{align*}
+\begin{align}
     \textbf{A}\textbf{x}\geq \textbf{b} 
-\end{align*}
+\end{align}
+$$
+
 with $\textbf{c} \in \mathbb{R}^{n}, \textbf{A} \in \mathbb{R}^{m\times n} \textbf{x}\in \mathbb{R}^{n}$ and $\textbf{b} \in \mathbb{R}^{m}$.
 $$
 Here, your set of feasible solutions are $\mathcal{F} = \left\{x \in \mathbb{R}^{n} \;\rvert\; \mathbb{A}x\geq b \right\}$
