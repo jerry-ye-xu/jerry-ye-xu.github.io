@@ -37,7 +37,7 @@ pos = pd.read_csv("../data/sales.csv")
 pos.head()
 ```
 
-![pos DataFrame](./public/pos_df.png)
+![pos DataFrame](/public/pos_df.png)
 
 We have a daily timestamp of sales for many products.. We want to look at the price-demand correlation matrix for all products. 
 
@@ -93,7 +93,7 @@ plt.imshow(pr_de_high_corr_only, cmap=plt.cm.twilight_shifted)
 plt.colorbar(im)
 ```
 
-![correlation heatmap](./public/correlation_matrix.png)
+![correlation heatmap](/public/correlation_matrix.png)
 
 ## Conclusion
 
