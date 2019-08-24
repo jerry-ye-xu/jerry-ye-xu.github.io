@@ -15,6 +15,47 @@ tags: ['simplex','linear programming', 'optimisation']
 <!-- Need this for table of contents above -->
 ---
 
+<!--   <p>
+$
+\newcommand{\braket}[1]{\langle #1 \rangle}
+\newcommand{\Abs}[2][]{\left\lvert#2\right\rvert_{\text{#1}}}
+$
+</p>
+<p>
+$
+\newcommand\vertbar{\Rule[-1ex]{0.5pt}{2.5ex}}
+\newcommand\horzbar{\Rule[.5ex]{2.5ex}{0.5pt}}
+$
+</p>
+
+$$
+
+\newcommand\T{\Rule{0pt}{1em}{.3em}}
+    \begin{array}{|c|c|}
+    \hline X & P(X = i) \T \\\hline
+      1 \T & 1/6 \\\hline
+      2 \T & 1/6 \\\hline
+      3 \T & 1/6 \\\hline
+      4 \T & 1/6 \\\hline
+      5 \T & 1/6 \\\hline
+      6 \T & 1/6 \\\hline
+    \end{array}
+
+
+\newcommand\vertbar{\Rule{-1ex}{0.5pt}{2.5ex}}
+\newcommand\horzbar{\Rule{.2ex}{2.5ex}{1.5pt}}
+$$
+
+$$
+\horzbar
+
+     --- & a_{1} & - \\\\
+    \hdashline & a_{2} & \horzbar \\\\
+    \enclose{horizontalstrike}{}\enclose{horizontalstrike}{}\enclose{horizontalstrike}{} & a_{3} & \horzbar \\\\
+    \horzbar & a_{4} & \horzbar
+
+$$ -->
+
 ## Linear Optimisation
 
 Optimisation often overlooked in online machine learning courses which focus on the typical ML models such as random forests and neural networks.
@@ -31,9 +72,7 @@ The first part you need is an objective. Suppose you program a robot to go buy f
 
 To formalise this, we define a __set of feasible solutions__ $\mathcal{F}$ where each feasible solution is a possible outcome of the optimisation. 
 
-To determine which solution is the best one, we define an 
-
-__objective function__ (sometimes called a cost function) $c \colon \mathcal{F} \rightarrow \mathbb{R}$. In most cases we create a function that is designed so that the linear program minimises the cost.
+To determine which solution is the best one, we define an __objective function__ (sometimes called a cost function) $c \colon \mathcal{F} \rightarrow \mathbb{R}$. In most cases we create a function that is designed so that the linear program minimises the cost.
 
 Now let's talk about linear programming. 
 
@@ -58,16 +97,18 @@ $$
 $$
 
 with $\textbf{c} \in \mathbb{R}^{n}, \textbf{A} \in \mathbb{R}^{m\times n} \textbf{x}\in \mathbb{R}^{n}$ and $\textbf{b} \in \mathbb{R}^{m}$.
-$$
-Here, your set of feasible solutions are $\mathcal{F} = \left\{x \in \mathbb{R}^{n} \;\rvert\; \mathbb{A}x\geq b \right\}$
+
+Here, your set of feasible solutions are $\mathcal{F} = \left\\{x \in \mathbb{R}^{n} \;\rvert\; \mathbb{A}x\geq b \right\\}$
 
 Most of the time we're going to be dealing with the linear program in \textbf{standard form} which is represented like below:
+
 $$
-\begin{align*}
-    \textbf{A}\textbf{x} & = \textbf{b} \\
+\begin{align}
+    \textbf{A}\textbf{x} & = \textbf{b} \\\\
         \textbf{x} & \geq 0
-\end{align*}
+\end{align}
 $$
+
 Be very careful and don't get confused by the 2 forms! They have properties that imply the same geometric meaning, but are not identical when considered algebraically! 
 
 So you have a whole bunch of variables constraining your vector of $x$'s. How should we approach this? 
@@ -79,24 +120,28 @@ It turns out that it is intuitively easier to understand the Simplex algorithm w
 Let's look at one row of the matrix $A$ at equality - $a_{i}x = b$. What does this look like in a vector space?
 
 If $n = 1$ dimension... now if $n = 2$ dimension...? 
+
 $$
 \begin{align*}
-    a_{1}x_{1} & = b \\
+    a_{1}x_{1} & = b \\\\
     x_{1} & = \frac{b}{a_{1}}
 \end{align*}
 $$
+
 The solution to $x_{1}$ is a single point.
+
 $$
 \begin{align*}
-    a_{1}x_{1} + a_{2}x_{2} & = b \\
+    a_{1}x_{1} + a_{2}x_{2} = b \\\\
     x_{2} = \frac{b}{a_{2}} - \frac{a_{1}}{a_{2}}x_{1}
 \end{align*}
 $$
+
 And this is a straight line. In 3 dimensions the equation represents a plane.  
 
 When you generalise this to large dimensions, the equation becomes an algebraic representation of a hyperplane. When an inequality is used, the feasible vector $x$'s that satisfy the inequality will lie on either side of the plane. 
 
-We call this a \textbf{halfspace}.
+We call this a __halfspace__.
 
 Now, since a single hyperplane can be constructed with a single row of matrix $A$ and the LP requires we satisfy the inequalities of each hyperplane, a feasible vector must lie within the intersection of all the halfspaces. 
 
@@ -106,65 +151,72 @@ So we've narrowed our possible solutions to every point inside a $n$-dimensional
 
 ## Basic Feasible Solutions
 
-Is there a way we can narrow our search? Well it turns out that the optimal solution can only be one of the \textbf{basic feasible solutions} (BFS).
+Is there a way we can narrow our search? Well it turns out that the optimal solution can only be one of the __basic feasible solutions (BFS)__.
 
 So what is a basic feasible solution? Well, a feasible solution is one inside the polyhedron. So what makes a feasible solution basic?
 
-For a feasible solution to be basic, it must have $n$ tight constraints and the corresponding matrix $A^{*}$ formed by the $i^{\textit{th}}$ rows must be full rank. In other words, for the equation $A^{*}x = b^{*}$ $x$ is the only solution, and $b^{*}$ is similarly the $i^{\textit{th}}$ elements of the vector. 
+For a feasible solution to be basic, it must have $n$ tight constraints and the corresponding matrix $\mathbf{A}\'$ formed by the $i^{\textit{th}}$ rows must be full rank. In other words, for the equation $\mathbf{A}\'\mathbf{x} = \mathbf{b}\'$ $\mathbf{x}$ is the only solution, and $\mathbf{b}^{\'}$ is similarly the $i^{\textit{th}}$ elements of the vector. 
 
-Hang on, what is a \textbf{tight constraint}? 
+Hang on, what is a __tight constraint__? 
 
-It is when the elements of $\textbf{x}$ allows for the $i^{\textit{th}}$ $a_{i}x = b$.
+It is when the elements of $\textbf{x}$ satisfies $a_{i}x = b$, the $i^{\textit{th}}$ row of $\mathbf{A}$.
 
-In other words, for a $n=2$ dimension LP, we must have 2 tight constraints where $A^{*}x = b^{*}$ hold given $x_{1}, x_{2}$. 
+In other words, for a $n = 2$ dimension LP, we must have 2 tight constraints where $\mathbf{A}\'\mathbf{x} = \mathbf{b}\'$ hold given $x_{1}, x_{2}$. 
 
 Let's look at the example of a square. How would you describe a square using a LP?
 
+\RR
+
 $$
-\begin{align*}
+\require{enclose}
+\begin{align}
     \begin{bmatrix} 
-    \horzbar & a_{1} & \horzbar \\
-    \horzbar & a_{2} & \horzbar \\
-    \horzbar & a_{3} & \horzbar \\
-    \horzbar & a_{4} & \horzbar
+    - & a_{1} & - \\\\
+    - & a_{2} & - \\\\
+    - & a_{3} & - \\\\
+    - & a_{4} & -
     \end{bmatrix} 
     \mathbf{x} 
     \geq 
     \mathbf{b} \implies
     \begin{bmatrix} 
-    1 & 0 \\
-    -1 & 0 \\
-    0 & 1 \\
-    0 & -1 \\
+    1 & 0 \\\\
+    -1 & 0 \\\\
+    0 & 1 \\\\
+    0 & -1 \\\\
     \end{bmatrix} 
     \begin{bmatrix} 
-    x_{1}  \\
+    x_{1}  \\\\
     x_{2}
     \end{bmatrix} 
     \geq 
     \begin{bmatrix} 
-    0 \\
-    -1 \\
-    0 \\
-    -1 \\
+    0 \\\\
+    -1 \\\\
+    0 \\\\
+    -1 \\\\
     \end{bmatrix} 
-\end{align*}
-Take $\mathbf{x^{*}} = (1, 0)$ for example. The 2 rows from $A$ that satisfy the equality are $a_{2}$ and $a_{3}$.
-\begin{align*}
+\end{align}
+$$
+
+Take $\mathbf{x\'} = (1, 0)$ for example. The 2 rows from $A$ that satisfy the equality are $a_{2}$ and $a_{3}$.
+
+$$
+\begin{align}
     \begin{bmatrix} 
-    -1 & 0 \\
-    0 & 1 \\
+    -1 & 0 \\\\
+    0 & 1 \\\\
     \end{bmatrix} 
     \begin{bmatrix} 
-    x_{1}  \\
+    x_{1}  \\\\
     x_{2}
     \end{bmatrix} 
     & = 
     \begin{bmatrix} 
-    -1 \\
-    0 \\
+    -1 \\\\
+    0 
     \end{bmatrix} 
-\end{align*}
+\end{align}
 $$
 
 Since $n = 2$ constraints are tight, we know that this is a basic feasible solution.
@@ -187,15 +239,15 @@ For the Simplex algorithm, we mainly work with the standard form of LPs.
 
 The important thing here to be aware of is that the standard form LP is a linear system of equations. Hence having more than $n$ equations for $n$ variables is redundant at best (when one row is a linear combination of the other rows) and can lead to an overdetermined system with no solutions.
 
-With $m < n$ equations, we are able to fix a subset of $\textbf{x}$ variables to zero to obtain a unique solution for the remaining unfixed $\textbf{x}$ variables. This is how we will go about finding basic feasible solutions. 
+With $m < n$ equations, we are able to fix a subset of $\textbf{x}$ variables to zero to obtain a unique solution for the remaining unfixed $\mathbf{x}$ variables. This is how we will go about finding basic feasible solutions. 
 
 The definition of a basic feasible solution remains the same, but achieving this algebraically in a standard form LP is slightly different. 
 
 We still need $n$ tight constraints for a $n$-dimensional space. However, since we have $m$ rows of equality constraints, we choose $m$ columns from $A$ such that the resulting matrix, denoted $A_{B}$, is full rank. 
 
-The set of columns we choose is defined as the \textbf{feasible basis}, $\mathbf{B} = \left\{b(i) \;\rvert\; i \in \mathbb{N}, 1 \leq i \leq n\right\}$, where $i$ represents the $i^{\textit{th}}$ column of $A$.
+The set of columns we choose is defined as the __feasible basis__, $\mathbf{B} = \left\\{b(i) \;\rvert\; i \in \mathbb{N}, 1 \leq i \leq n\right\\}$, where $i$ represents the $i^{\textit{th}}$ column of $A$.
 
-Once the columns are chosen the remaining  $n - m$ $x_{i}$ variables, $\forall i \notin \mathbf{B}$ are set to zero. 
+Once the columns are chosen the remaining  $(n - m)$ $x_{i}$ variables, $\forall i \notin \mathbf{B}$ are set to zero. 
 
 With $m$ $x$ variables achieving the required equality and the rest of the $n - m$ variables equal to zero (hence $x \geq 0$ achieves equality), we now have $n$ active constraints and thus our unique solution will be a basic solution.
 
