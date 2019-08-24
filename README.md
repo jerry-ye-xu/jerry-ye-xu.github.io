@@ -74,6 +74,11 @@ MathJax.Hub.Config({
 </script>
 <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 ```
+__Defining Macros__
+
+This [post](https://stackoverflow.com/questions/24628668/how-to-define-custom-macros-in-mathjax) may be useful for getting started.
+
+The [docs](http://docs.mathjax.org/en/latest/tex.html) are still the best for a detailed walkthrough.
 
 ## Adding ToC
 
