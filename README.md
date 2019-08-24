@@ -50,6 +50,9 @@ You can view the `init` file using
 ```
 rbenv init -
 ```
+## Testing Locally
+
+Once you no longer run into `FilePermissionsError`, you should be able to test your build locally useing `jekyll serve`. 
 
 ## Using MathJax
 
