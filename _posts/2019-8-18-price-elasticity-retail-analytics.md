@@ -15,8 +15,7 @@ tags: ['price elasticity','demand modelling', Python']
 <!-- Need this for table of contents above -->
 ---
 
-
-### Demand Modelling in Retail
+## Demand Modelling in Retail
 
 Building accurate demand models is a fundamental component of data science in the retail industry. With accurate demand models, the business can quantify the relationship between products, forecast sales to minimise inventory costs and even layer price optimisation capabilities on top.
 
@@ -26,7 +25,7 @@ You can think of sales for an individual product over time as a single time seri
 
 Today we're going to look at how to quickly build a correlation matrix so that we can incorporate it into our modelling process. 
 
-### Building the Correlation Matrix
+## Building the Correlation Matrix
 
 So first we load in the data
 
@@ -96,8 +95,7 @@ plt.colorbar(im)
 
 ![correlation heatmap](../public/correlation_matrix.png)
 
-
-### Conclusion
+## Conclusion
 
 Utilising price-elasticity features to model the relationship between multiple products is very common in retail.  
 
