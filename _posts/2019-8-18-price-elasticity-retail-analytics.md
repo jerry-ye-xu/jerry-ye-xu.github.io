@@ -2,8 +2,8 @@
 layout: post
 title: Modelling a Correlation Matrix for Price-elasticity with Python
 category: Data Science
-categories: ['price elasticity','demand modelling', Python']
-tags: ['price elasticity','demand modelling', Python']
+categories: ['price elasticity','demand modelling', 'Python']
+tags: ['price elasticity','demand modelling', 'Python']
 ---
 
 ---
