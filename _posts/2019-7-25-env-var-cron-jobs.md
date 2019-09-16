@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Environment Variables for Cron Jobs
-category: Computer Science
+category: Practical
 categories: ['cron', 'bash', 'nifty tricks']
 tags: ['cron', 'bash', 'nifty tricks']
 ---

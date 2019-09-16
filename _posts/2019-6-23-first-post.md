@@ -1,7 +1,7 @@
 ---
 layout: post
 title: First Post
-category: First Post
+category: Miscellaneous
 categories: ['first post']
 tags: ['first post']
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Simplex Algorithm - Part 1
-category: Computer Science
+category: Theory
 categories: ['simplex','linear programming', 'optimisation']
 tags: ['simplex','linear programming', 'optimisation']
 ---

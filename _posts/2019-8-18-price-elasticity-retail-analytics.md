@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Modelling a Correlation Matrix for Price-elasticity with Python
-category: Data Science
+title: Price Elasticity in Retail
+category: Practical
 categories: ['price elasticity','demand modelling', 'Python']
 tags: ['price elasticity','demand modelling', 'Python']
 ---
