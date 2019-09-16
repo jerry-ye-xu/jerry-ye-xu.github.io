@@ -237,7 +237,7 @@ Alright. I think we are ready to introduce the Simplex algorithm.
 \caption{Simplex}
 \begin{algorithmic}
 \REQUIRE Solve auxiliary LP for an initial feasible basis $\mathbf{B}$ or return infeasible.
-    \WHILzE{basis $\mathbf{B}$ is changing}
+    \WHILE{basis $\mathbf{B}$ is changing}
         \STATE $\mathbf{x}_{B} = \mathbf{A}^{-1}_{B}b$
         \STATE $\bar{c_{j}} = c_{j} - \mathbf{c}_{B}^{T}\mathbf{A}_{B}^{-1}\mathit{A}_{j}$
         \IF{$\exists j$ such that $\bar{c}_{j} < 0 $}
