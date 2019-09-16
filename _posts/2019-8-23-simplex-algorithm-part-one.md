@@ -96,7 +96,7 @@ $$
 
 for $\textbf{c} \in \mathbb{R}^{n}, \textbf{A} \in \mathbb{R}^{m\times n} \textbf{x}\in \mathbb{R}^{n}$ and $\textbf{b} \in \mathbb{R}^{m}$.
 
-Here, your set of feasible solutions are $\mathcal{F} = \left\\{\mathbf{x} \in \mathbb{R}^{n} \;\rvert\; \mathbf{A}\mathbf{x}\geq b \right\\}$
+Here, your set of feasible solutions are $\mathcal{F} = \left\\{\mathbf{x} \in \mathbb{R}^{n} \;\rvert\; \mathbf{A}\; \mathbf{x}\geq b \right\\}$
 
 Most of the time we're going to be dealing with the linear program in __standard form__ which is represented like below:
 
@@ -113,7 +113,7 @@ $$
 \end{align}
 $$
 
-Be very careful and don't get confused by the 2 forms! They have algebraic properties that translate to the same geometric meaning, but the algebraic properties are necessarily identical.
+Be very careful and don't get confused by the 2 forms! They have algebraic properties that translate to the same geometric meaning, but the algebraic properties are not necessarily identical!
 
 So you have a whole bunch of variables constraining your vector of $x$'s. How should we approach this? 
 
