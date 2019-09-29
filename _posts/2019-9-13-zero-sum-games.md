@@ -245,17 +245,17 @@ Player 1 wants to maximise payout and conversing player 2 wants to minimise payo
 
 Our minimax algorithm calculates to a depth of 2 and returns the payout shown in the leaf nodes.
 
-![minimax_algo_one](/public/minimax_algo1.jpg)
+![minimax_algo_one](/public/minimax_algo1.JPG)
 
 Now we begin backtracking.
 
 Because player 2 will be the one making the decision, the leaf node with the lowest payout is chosen. The result is shown below.
 
-![minimax_algo_two](/public/minimax_algo2.jpg)
+![minimax_algo_two](/public/minimax_algo2.JPG)
 
 We backtrack one more step, this time taking the maximum possible payout as it was player 1's move.
 
-![minimax_algo_three](/public/minimax_algo3.jpg)
+![minimax_algo_three](/public/minimax_algo3.JPG)
 
 Hence we have an optimal move given our evaluation of the outcomes at $n=2$ depth.
 
@@ -265,7 +265,7 @@ Let's quickly talk about how we can prune the search tree with an idea called al
 
 If you recall the example above, the diagram for which I've put below for easy reference,
 
-![minimax_algo_two](/public/minimax_algo2.jpg)
+![minimax_algo_two](/public/minimax_algo2.JPG)
 
 we actually don't need to traverse the final node on the RHS since player 2 is guaranteed to pick at most 2, and more importantly on the LHS the optimal choice for player 1 is already 3, which is larger than 2.
 
