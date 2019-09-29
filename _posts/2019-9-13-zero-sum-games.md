@@ -199,7 +199,7 @@ $$
 \end{align}
 $$
 
-This can be seen if you follow the construction of dual LPs on the [Wiki]("https://en.wikipedia.org/wiki/Dual_linear_program#Constructing_the_dual_LP") page.
+This can be seen if you follow the construction of dual LPs on the [Wiki](https://en.wikipedia.org/wiki/Dual_linear_program#Constructing_the_dual_LP) page.
 
 It turns out that the dual is the equivalent LP for 
 
