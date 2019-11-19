@@ -52,7 +52,7 @@ This algorithm makes a few assumptions that we will tackle throughout this post.
 2. Every basic feasible solution is non-degenerate.
 3. The feasible region is bounded. 
 
-We will relax them one by one, but let's not rush into it. 
+We will relax them one by one.
 
 First we need to understand how Simplex moves from one basic feasible solution (BFS) to another. 
 
@@ -123,7 +123,7 @@ $$
 \end{align}
 $$
 
-Where $\mathit{A}_{b(i)}$ is the $b(i)^{\textit{th}}$ column of $\mathbf{A}$.
+Where $\mathit{A}_{b(i)}$ is the index column of $\mathbf{A}$ denoted by the ith basis indice (for clarity sake, $b(1)$ could be the 5th column).
 
 So how do we calculate $\theta$? The idea is that since the new BFS, $\mathbf{y} > 0$, is non-degenerate by our constraints, we have
 
@@ -152,7 +152,7 @@ $$
 
 where $i \in B$ and $d_{i} < 0$.
 
-Note: There are 3 cases of $x_{i}$ remember? $x_{i}$ is a basic variable and is either non-zero (non-degenerate) or zero (degenerate), , not a basic variable and thus is set to zero or is negative when we solve the constraint and thus gives a feasible solution instead of a basic feasible solution.
+Note: There are 3 cases of $x_{i}$ remember? $x_{i}$ is a basic variable and is either non-zero (non-degenerate) or zero (degenerate), or not a basic variable and thus is set to zero or is negative when we solve the constraint and thus gives a feasible solution instead of a basic feasible solution.
 
 Note2: There are also 3 cases for $d_{i}$. Either $d_{i}$ does not belong to the basis, or it does, or it does not belong and is the $j^{\textit{th}}$ direction.  
 
@@ -303,7 +303,7 @@ wasn't it =(.
 
 There's alot more detail involved, but this is a nice overall of the main ideas.
 
-If you do decide to dig deeper you will encounter an even cooler concept called __duality__ - you may have heard of this when learning about network flows in an algorithms course. Indeed, we can use the duality of linear programs to mathematically justify why the `min-cut max-flow` theorem holds. 
+If you do decide to dig deeper you will encounter an even cooler concept called __duality__ - you may have heard of this when learning about network flows in an algorithms course. Indeed, we can use the duality of linear programs to mathematically justify why the `max-flow min-cut` theorem holds. 
 
 That's for another day though. 
 

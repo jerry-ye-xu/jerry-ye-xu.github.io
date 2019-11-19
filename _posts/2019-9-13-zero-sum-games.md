@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Zero-sum Games and the Minimax Algorihm
+title: Zero-sum Games and the Minimax Algoritrhm
 category: Theory
 categories: ['game theory','linear programming', 'zero-sum', 'minimax']
 tags: ['game theory','linear programming', 'zero-sum', 'minimax']
@@ -67,7 +67,7 @@ If you're playing scissors-paper-rock and you go first, then you'll always have 
 
 In this case, no single strategy is winning for $p_{1}$.
 
-So that sucks. As you might know from experience (or maybe from your statistics classes), that if you just randomly choose any strategy and have infinite iterations your payout will be zero in the long-term. 
+So that sucks. As you might know from experience (or maybe from your statistics classes), that if you just randomly choose any strategy and have infinite iterations your expected payout will be zero in the long-term. 
 
 In fact, for the game of scissors-paper-rock, we call this situation the mixed equilibria of the game. 
 
@@ -213,11 +213,9 @@ $$
 	\underset{s_{A}}{\max}\underset{s_{B}}{\min}\sum_{i=1}^{n}\sum_{j=1}^{m}s_{A, i}s_{B, j}p_{ij} = \underset{s_{B}}{\min}\underset{s_{A}}{\max}\sum_{i=1}^{n}\sum_{j=1}^{m}s_{A, i}s_{B, j}p_{ij}
 $$
 
-The maximum payout for $p_{1}$ after $p_{2}$ chooses a (mixed) strategy that minimises their loss is equivalent to the maximum payout $p_{2}$ can get after $p_{1}$ choosses a strategy that minimises their loss.
+The maximum payout for $p_{1}$ after $p_{2}$ chooses a (mixed) strategy that minimises their loss is equivalent to the maximum payout $p_{2}$ can get after $p_{1}$ chooses a strategy that minimises their loss.
 
 The reason why we have $\underset{s_{B}}{\min}$ on the LHS is because we are considering the payout matrix for $p_{1}$.
-
-Duality is insane.
 
 Finally, the __value__ of the game refers to payout at the mixed equilibrium and we say that the value of the game is well defined because the mixed equilibrium always exists.
 
@@ -241,7 +239,7 @@ The reason why we do this is because we are dealing with a turn-based game (simi
 
 Let's have a look at an example. Looking at the tree diagram below, suppose our current state is the top node, and player 1 is to move.
 
-Player 1 wants to maximise payout and conversing player 2 wants to minimise payout.
+Player 1 wants to maximise payout and conversely player 2 wants to minimise payout.
 
 Our minimax algorithm calculates to a depth of 2 and returns the payout shown in the leaf nodes.
 

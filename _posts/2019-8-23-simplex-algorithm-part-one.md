@@ -58,7 +58,9 @@ $$ -->
 
 ## Linear Optimisation
 
-Optimisation is often overlooked in online machine learning courses. I believe that the study of optimisation is essential to improving one's skills as a machine learning practitioner. Today we discuss the `hello world` equivalent of linear optimisation - the __Simplex Algorithm__. 
+Optimisation is often overlooked in online machine learning courses. 
+
+Today we discuss the `hello world` equivalent of linear optimisation - the __Simplex Algorithm__. 
 
 We first construct the linear program before diving into its geometric representation and algebraic properties, all of which lead to the intuition of the algorithm. Once we understand the algorithm, we try to understand why the algorithm works mathematically.
 
@@ -66,7 +68,7 @@ The post assumes that you have been exposed to some 1st year linear algebra.
 
 So what the basic form of an optimisation problem? Well, it comes in 2 parts.
 
-The first part you need is an objective. Suppose you program a robot to go buy as much food as possible at the supermarket. If the robot has infinite cash then it will simply buy every item in the supermarket. Hence, you also need a second part - the constraints. For example, you can tell the robot to buy only 2L of milk, not to spend more than 30 dollars on snacks and get lots and lots of vegetables =).
+The first part is an objective. Suppose you program a robot to buy as much food as possible at the supermarket. If the robot has infinite cash then it will simply buy every item in the supermarket. Hence, you also need a second part - the constraints. For example, you can tell the robot to buy only 2L of milk, not to spend more than 30 dollars on snacks and get lots and lots of vegetables =).
 
 To formalise this, we define a __set of feasible solutions__ $\mathcal{F}$ where each feasible solution is a possible outcome of the optimisation problem. 
 
@@ -117,7 +119,7 @@ Be very careful and don't get confused by the 2 forms! They have algebraic prope
 
 So you have a whole bunch of variables constraining your vector of $x$'s. How should we approach this? 
 
-It turns out that it is intuitively easier to understand the problem, and hence why we need the Simplex algorithm, when considering the LP geometrically.
+It turns out that it is intuitively easier to understand the problem when considering the LP geometrically. This will also help shed light on the Simplex algorithm, 
 
 ## Geometric interpretation
 
@@ -157,15 +159,19 @@ So we've narrowed our possible solutions to every point inside a $n$-dimensional
 
 ## Basic Feasible Solutions
 
-Is there a way we can narrow our search? Well it turns out that the optimal solution can only be one of the __basic feasible solutions (BFS)__ of the LP.
+Is there a way we can narrow our search? 
+
+Well it turns out that the optimal solution can only be one of the __basic feasible solutions (BFS)__ of the LP.
 
 So what is a basic feasible solution? Well, a feasible solution is one inside the polyhedron. So what makes a feasible solution basic?
 
-For a feasible solution to be basic, algebraically it must have $n$ tight constraints and the corresponding matrix $\mathbf{A}\'$ formed by the $i^{\textit{th}}$ rows must be full rank. In other words, for the equation $\mathbf{A}\'\mathbf{x} = \mathbf{b}\'$ $\mathbf{x}$ is the only solution, and $\mathbf{b}^{\'}$ is similarly the $i^{\textit{th}}$ elements of the vector. 
+For a feasible solution to be basic, algebraically it must have $n$ tight constraints and the corresponding matrix $\mathbf{A}\'$ formed by the $i^{\textit{th}}$ rows must be full rank. 
 
 Hang on, what is a __tight constraint__? 
 
 It is when the elements of $\textbf{x}$ satisfies $a_{i}x = b$, the $i^{\textit{th}}$ row of $\mathbf{A}$.
+
+For the equation $\mathbf{A}\'\mathbf{x} = \mathbf{b}\'$ $\mathbf{x}$ to be the only solution, it must have $n$ tight constraints and the $\mathbf{A}'$ must be full row rank. $\mathbf{b}^{\'}$ is similarly the vector of the $i^{\textit{th}}$ elements. 
 
 In other words, for a $n = 2$ dimension LP, we must have 2 tight constraints where $\mathbf{A}\'\mathbf{x} = \mathbf{b}\'$ hold given $\mathbf{x} = \left(x_{1}, x_{2}\right)$. 
 
@@ -194,6 +200,7 @@ $$
     \end{bmatrix} 
     \begin{bmatrix} 
     x_{1}  \\
+    x_{2}  \\
     \end{bmatrix} 
     \geq 
     \begin{bmatrix} 
@@ -205,7 +212,7 @@ $$
 \end{align}
 $$
 
-Take $\mathbf{x\'} = (1, 0)$ for example. The 2 rows from $A$ that satisfy the equality are $a_{2}$ and $a_{3}$.
+Take $\mathbf{x\'} = [1, 0]^{T}$ for example. The 2 rows from $A$ that satisfy the equality are $a_{2}$ and $a_{3}$.
 
 $$
 \begin{align}
@@ -229,19 +236,21 @@ Since $n = 2$ constraints are tight, we know that this is a basic feasible solut
 
 Can you figure out what the other basic feasible solutions are?
 
-When considering the LP not in standard form, we will often have more constraints than variables (this is certainly not the same with standard form LPs! I initially was very confused because I didn't notice this).
+When considering the LP not in standard form, we will often have more constraints than variables (this is certainly not the same with standard form LPs! I was very confused initially because I didn't notice this).
 
-If you figured out the remaining basic feasible solutions, you might have noticed that they are the 'vertices' of the square. 
+If you have figured out the remaining basic feasible solutions, you might have noticed that they are the 'vertices' of the square. 
 
 __This is case for all LPs - the set of basic feasible solutions correspond to the set of vertices__. This is no coincidence - we can mathematically prove that the vertices and basic feasible solutions are equivalent. This is also why we talked about the geometric representation of LPs.
 
 In other words, in order to find the optimal solution to our LP we only need to examine the vertices of the polyhedron formed by the LP. 
 
-And we need a systematic way to do that. Hence the existence of the Simplex algorithm. And before we move onto that, we need to discuss the standard form in a little more detail. 
+And we need a systematic way to do that. Hence the existence of the Simplex algorithm. 
+
+Before we move onto that, we need to discuss the standard form in a little more detail. 
 
 ## The Standard Form
 
-For the Simplex algorithm, we mainly work with the standard form of LPs. 
+For the Simplex algorithm works with the standard form of LPs. 
 
 The important thing here to be aware of is that the standard form LP is a linear system of equations. Hence having more than $n$ equations for $n$ variables is redundant at best (when one row is a linear combination of the other rows) and can lead to an overdetermined system with no solutions.
 
@@ -269,7 +278,7 @@ Now, suppose for a particular vertex you also have a 3rd line passing through. I
 
 The algebraic representation of this is simple. For a given basic feasible solution, you actually have not $n$ active constraints, but more than $n$ active constraints. 
 
-For a polyhedron of standard form, you would need to have more then $n - m$ zero $x_{i}$'s - the unique solution $x_{B}$ given the basis matrix $A_{B}$ has at least one $x_{i} = 0$.
+For a polyhedron of standard form, you would have more then $n - m$ zero $x_{i}$'s - the unique solution $x_{B}$ given the basis matrix $A_{B}$ has at least one $x_{i} = 0$.
 
 Here is a picture that might help:
 
