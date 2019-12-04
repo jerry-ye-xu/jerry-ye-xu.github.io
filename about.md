@@ -18,24 +18,18 @@ toc: False
 
 ### Hello!
 
-My name is Jerry, a data science graduate at Commonwealth Bank and part-time student at Sydney university.
+My name is Jerry, currently doing research in information retrieval and NLP at Data61 and a math and computer science student at Sydney university.
 
-Prior to CommBank I worked at a startup called Hivery on data engineering and time series modelling. At uni I was VP of ANOVA Project, a STEM consulting society that works with startups and not-for-profits.
+Prior to this I worked at Commonwealth Bank and a startup called Hivery.
 
-2 years ago after wrapping up podcasting I discovered data science and all her friends, and the rest has yet to be written =). 
+2 years ago after wrapping up podcasting I became interested in data science whilst working at Hivery, and have continued to develop in this area =).
 
-I also keep an eye out for Asia's tech space, especially China. I studied Japanese in school and speak fluent Mandarin.
+During an off-day you will definitely find me doing bag work or rolling on the mats. =)
 
-### What I am up to
+I keep an eye out for Asia's tech space, especially China. I studied Japanese in school and speak fluent Mandarin.
 
-At CommBank I work as a data scientist, building applications and applying machine learning to solve problems. 
+I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are The Tim Ferris Show, Disrupting Japan, and China Tech Talk.
 
-I am currently studying math and computer science at USyd whilst dabbing into Bayesian statistics through self-study.
-
-During an off-day you will definitely find me doing bag work or rolling on the mats. =) 
-
-I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are The Tim Ferris Show, Disrupting Japan, and China Tech Talk. 
-
-Disclaimer: I am not affiliated nor compensated in any way. 
+Disclaimer: I am not affiliated nor compensated in any way.
 
 <h3 class="no_toc">Don't hesitate to <a href="mailto:jerryxu2500@gmail.com">reach out!</a></h3>
