@@ -18,7 +18,7 @@ toc: False
 
 ### Hello!
 
-My name is Jerry, currently doing research in information retrieval and NLP at Data61 and a math and computer science student at Sydney university.
+My name is Jerry, a math and computer science student at Sydney university. Currently I am doing research in information retrieval and NLP at Data61 with a focus on precision medicine.
 
 Prior to this I worked at Commonwealth Bank and a startup called Hivery.
 
