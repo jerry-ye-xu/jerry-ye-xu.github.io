@@ -36,7 +36,7 @@ In a previous life, I ran my own podcast and chess school. One day I stumbled ac
 
 <p align="center">
     <figure>
-  <img src="/public/data_science_venn_diagram.png" width="607" height="526" alt="Profile Picture" align="center" style="position:relative;display:block;">
+  <img src="/public/data_science_venn_diagram.png" width="304" height="263" alt="Profile Picture" align="center" style="position:relative;display:block;">
   <figcaption>Credits: TheDataScientist.com</figcaption>
     </figure>
 </p>
