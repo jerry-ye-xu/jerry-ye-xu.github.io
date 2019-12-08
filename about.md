@@ -41,7 +41,7 @@ In a previous life, I ran my own podcast and chess school. One day I stumbled ac
     </figure>
 </p>
 
-My reasons for pursuing math and computer science have matured now, and I still enjoy the journey.
+My reasons for pursuing math and computer science have matured now, and I noticed that I have been enjoying the journey more and more.
 
 ### Hobbies and Interests
 
