@@ -18,11 +18,32 @@ toc: False
 
 ### Hello!
 
-My name is Jerry, a math and computer science student at Sydney university. Currently I am doing research in information retrieval and NLP at Data61 with a focus on precision medicine.
+My name is Jerry, a math and computer science student at Sydney university.
 
-Prior to this I worked at Commonwealth Bank and a startup called Hivery.
+Welcome to my webpage, please feel free to look around.
 
-2 years ago after wrapping up podcasting I became interested in data science whilst working at Hivery, and have continued to develop in this area =).
+I use this space for two reasons; 1) detailing knowledge to jog my memory and motivate readers to dig deeper into the subject, and 2) to reflect upon my experiences and learnings.
+
+When I was growing up, my parents were busy working and I was left to my own device of sorts, and as a result was forced to be my own critic from a young age.
+
+Writing reflections is a concrete way to ascertain my learnings for the future and if possible, entertain readers to pitfalls they may want to avoid.
+
+### Brief History
+
+Previously I held data science roles at Commonwealth Bank and a startup called Hivery, doing a mixture of data engineering, building proof-of-concepts and time series analysis.
+
+In a previous life, I ran my own podcast and chess school before deciding that the venn diagram below was so cool that I decided to give it a shot.
+
+<p align="center">
+    <figure>
+  <img src="/public/data_science_venn_diagram.png" width="607" height="526" alt="Profile Picture" align="center" style="position:relative;display:block;">
+  <figcaption>Credits: TheDataScientist.com</figcaption>
+    </figure>
+</p>
+
+And I have been enjoying every moment!
+
+### Hobbies and Interests
 
 During an off-day you will definitely find me doing bag work or rolling on the mats. =)
 
