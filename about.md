@@ -35,19 +35,17 @@ Previously I held data science roles at Commonwealth Bank and a startup called H
 In a previous life, I ran my own podcast and chess school. One day I stumbled across a similar venn diagram and decided that it would be awesome if I had all of these skills.
 
 <p align="center">
-    <figure>
   <img src="/public/data_science_venn_diagram.png" width="304" height="263" alt="Profile Picture" align="center" style="position:relative;display:block;">
-  <figcaption>Credits: TheDataScientist.com</figcaption>
-    </figure>
+  Credits: TheDataScientist.com
 </p>
 
-My reasons for pursuing math and computer science have matured now, and I noticed that I have been enjoying the journey more and more.
+My reasons for pursuing math and computer science have matured now, and I have been enjoying the journey more and more.
 
 ### Hobbies and Interests
 
 During an off-day you will definitely find me doing bag work or rolling on the mats. =)
 
-I keep an eye out for Asia's tech space, especially China. I studied Japanese in school and speak fluent Mandarin.
+I keep an eye out for Asia's tech space, especially China. I studied Japanese in school and speak Mandarin.
 
 I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are The Tim Ferris Show, Disrupting Japan, and China Tech Talk.
 
