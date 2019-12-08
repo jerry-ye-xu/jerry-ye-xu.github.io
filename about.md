@@ -22,17 +22,17 @@ My name is Jerry, a math and computer science student at Sydney university.
 
 Welcome to my webpage, please feel free to look around.
 
-I use this space for two reasons; 1) detailing knowledge to jog my memory and motivate readers to dig deeper into the subject, and 2) to reflect upon my experiences and learnings.
+I use this space for two reasons; 1) jotting down ideas to use as a reference and (hopefully!) motivate readers to dig deeper into the subject, and 2) to reflect upon my experiences and learnings.
 
-When I was growing up, my parents were busy working and I was left to my own device of sorts, and as a result was forced to be my own critic from a young age.
+Sometimes there are things I would like to remember, sometimes there are things I would like to share, sometimes it's both. Either one of those reasons is sufficient for me to write.
 
-Writing reflections is a concrete way to ascertain my learnings for the future and if possible, entertain readers to pitfalls they may want to avoid.
+Writing reflections is a proactive way to mull over my thoughts and entertain readers to snippets of introspection.
 
 ### Brief History
 
-Previously I held data science roles at Commonwealth Bank and a startup called Hivery, doing a mixture of data engineering, building proof-of-concepts and time series analysis.
+Previously I held data science roles at Commonwealth Bank and a startup called Hivery doing a mixture of data engineering, building proof-of-concepts and time series analysis.
 
-In a previous life, I ran my own podcast and chess school before deciding that the venn diagram below was so cool that I decided to give it a shot.
+In a previous life, I ran my own podcast and chess school. One day I stumbled across a similar venn diagram and decided that it would be awesome if I had all of these skills.
 
 <p align="center">
     <figure>
@@ -41,7 +41,7 @@ In a previous life, I ran my own podcast and chess school before deciding that t
     </figure>
 </p>
 
-And I have been enjoying every moment!
+My reasons for pursuing math and computer science have matured now, and I still enjoy the journey.
 
 ### Hobbies and Interests
 
