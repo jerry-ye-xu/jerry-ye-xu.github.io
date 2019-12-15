@@ -20,6 +20,8 @@ toc: False
 
 My name is Jerry, a math and computer science student at Sydney university.
 
+Over the summer I am doing research in applying deep learning to information retrieval problems in the biomedical space.
+
 Welcome to my webpage, please feel free to look around.
 
 I use this space for two reasons; 1) jotting down ideas to use as a reference and (hopefully!) motivate readers to dig deeper into the subject, and 2) to reflect upon my experiences and learnings.
