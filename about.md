@@ -20,7 +20,7 @@ toc: False
 
 My name is Jerry, a math and computer science student at Sydney university.
 
-Over the summer I am doing research in applying deep learning to information retrieval problems in the biomedical space.
+I am currently doing research at Data61, applying deep learning models used in NLP to information retrieval problems in the biomedical space.
 
 Welcome to my webpage, please feel free to look around.
 
