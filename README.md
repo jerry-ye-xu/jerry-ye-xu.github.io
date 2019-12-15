@@ -123,6 +123,8 @@ Open sourced under the [MIT license](LICENSE.md).
 ---
 
 ### WORKLOG
+- 15/12/19: 0.0.7 - Added responsive image for `about_me` page
+- 12/10/19: 0.0.6 - Updated tagline and description in the side bar 
 - 04/7/19: 0.0.5 - Added blog post page to show all past blog posts, added tags and categories.  
 - 27/6/19: 0.0.4 - Get ToC working, added shadow to separate posts in home page. 
 - 25/6/19: 0.0.3 - Added MathJax, updated about me page with photo.
