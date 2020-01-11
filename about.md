@@ -32,9 +32,12 @@ Writing reflections is a proactive way to mull over my thoughts and entertain re
 
 ### Brief History
 
-Previously I held data science roles at Commonwealth Bank and a startup called Hivery doing a mixture of data engineering, building proof-of-concepts and time series analysis.
+Previously I held data science roles at Commonwealth Bank and a startup called Hivery doing a mixture of data engineering, proof-of-concepts and time series analysis.
 
-In a previous life, I ran my own podcast and chess school. One day I stumbled across venn diagram similar to the one below and decided that data science sounded cool.
+In a previous life, I ran my own podcast and chess school.
+
+<!--
+One day I stumbled across venn diagram similar to the one below and decided that data science sounded cool.
 
 <p align="center">
   <img src="/public/data_science_venn_diagram.png" width="304" height="263" alt="Profile Picture" align="center" style="position:relative;display:block;">
@@ -42,6 +45,7 @@ In a previous life, I ran my own podcast and chess school. One day I stumbled ac
 </p>
 
 My reasons for pursuing math and computer science have since matured, and I have been enjoying the journey more and more.
+-->
 
 ### Hobbies and Interests
 
