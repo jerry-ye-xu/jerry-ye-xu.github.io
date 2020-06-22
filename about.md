@@ -58,3 +58,29 @@ I also happen to be a huge fan of podcasts, having hosted one in a prior life. M
 Disclaimer: I am not affiliated nor compensated in any way.
 
 <h3 class="no_toc">Don't hesitate to <a href="mailto:jerryxu2500@gmail.com">reach out!</a></h3>
+
+### Relevant Coursework
+
+__Computer Science:__
+- Data structures & Algorithms
+- Systems programming
+- Models of computation
+- Software construction & Design I
+- Distributed systems
+- Databases I & II
+- Discrete optimisation
+
+__Statistics:__
+- Statisical modelling
+- Statistical tests
+- Applied linear models
+- Applied statistics
+- Time series & stohastic processes
+- Statistical inference
+
+__Mathematics:__
+- Linear algebra
+- Vector calculus & ODEs
+- Analysis
+- Metric spaces
+- Measure theory and fourier analysis
