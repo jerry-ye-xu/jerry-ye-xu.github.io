@@ -3,7 +3,7 @@
 
 Thanks for stopping by. This is my website where I host my bio and blog posts. Thank you to Mark Otto for authoring this theme. 
 
-Feel free to look around. The website is [here]("https://jerry-ye-xu.github.io/")
+Feel free to look around. The website is [here](https://jerry-ye-xu.github.io/)
 
 ## Contents
 
