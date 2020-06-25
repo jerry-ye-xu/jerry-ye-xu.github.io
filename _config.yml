@@ -11,7 +11,7 @@ plugins:
 
 # Setup
 title:            Jerry Xu
-tagline:          'Interested in ML and SWE'
+tagline:          'Data and software'
 description:      'Focusing on micro-intensity'
 subdescription:   'Curiosity | Habits | Patience'
 url:              http://jerry-ye-xu.github.io/
@@ -26,7 +26,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          1.0.7
+version:          1.0.8
 
 github:           https://github.com/jerry-ye-xu/
 repo:             https://github.com/jerry-ye-xu/jerry-ye-xu.github.io

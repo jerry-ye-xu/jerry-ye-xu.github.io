@@ -8,6 +8,9 @@ Below are some notes I have written for my own self-study. To be best of my abil
 
 <ul>
     <li>
+        <a href="/notes/vector_calc_odes.pdf">MATH2921: Vector Calculus and ODEs [p-1.0.0]</a>
+    </li>
+    <li>
         <a href="/notes/analysis.pdf">MATH2923: Real and Complex Analysis [p-1.0.0]</a>
     </li>
 	<li>
