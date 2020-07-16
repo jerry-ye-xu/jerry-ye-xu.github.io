@@ -20,7 +20,7 @@ toc: False
 
 My name is Jerry, a math and computer science student at Sydney university.
 
-I am currently doing research at Data61, applying deep learning models used in NLP to information retrieval problems in the biomedical space.
+I am currently interning at HelloFresh as a data scientist, working on optimising machine learning models, applying statistic to marketing experiments and building data pipelines.
 
 Welcome to my webpage, please feel free to look around.
 
@@ -30,22 +30,15 @@ Sometimes there are things I would like to remember, sometimes there are things 
 
 Writing reflections is a proactive way to mull over my thoughts and entertain readers to snippets of introspection.
 
+
 ### Brief History
 
-Previously I held data science roles at Commonwealth Bank and a startup called Hivery doing a mixture of data engineering, proof-of-concepts and time series analysis.
+Earlier in summer I was doing a research internship at Data61, applying deep learning models used in NLP to information retrieval problems in the biomedical space.
+
+Prior to that I held data science roles at Commonwealth Bank and a startup called Hivery doing a mixture of data engineering, proof-of-concepts and time series analysis.
 
 In a previous life, I ran my own podcast and chess school.
 
-<!--
-One day I stumbled across venn diagram similar to the one below and decided that data science sounded cool.
-
-<p align="center">
-  <img src="/public/data_science_venn_diagram.png" width="304" height="263" alt="Profile Picture" align="center" style="position:relative;display:block;">
-  Credits: TheDataScientist.com
-</p>
-
-My reasons for pursuing math and computer science have since matured, and I have been enjoying the journey more and more.
--->
 
 ### Hobbies and Interests
 
@@ -53,19 +46,20 @@ During an off-day you will definitely find me doing bag work or rolling on the m
 
 I keep an eye out for Asia's tech space, especially China. I studied Japanese in school and speak Mandarin.
 
-I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are The Tim Ferris Show, Disrupting Japan, and China Tech Talk.
+I also happen to be a huge fan of podcasts, having hosted one in a prior life. My current favourites are The Tim Ferris Show, Disrupting Japan, and a16z.
 
 Disclaimer: I am not affiliated nor compensated in any way.
 
 <h3 class="no_toc">Don't hesitate to <a href="mailto:jerryxu2500@gmail.com">reach out!</a></h3>
 
+
 ### Relevant Coursework
 
+Here is a brief summary of coursework that is relevant for my career interests.
+
 __Computer Science:__
-- Data structures & Algorithms
+- Data structures & algorithms
 - Systems programming
-- Models of computation
-- Software construction & Design I
 - Distributed systems
 - Databases I & II
 - Discrete optimisation
@@ -83,4 +77,3 @@ __Mathematics:__
 - Vector calculus & ODEs
 - Analysis
 - Metric spaces
-- Measure theory and fourier analysis
