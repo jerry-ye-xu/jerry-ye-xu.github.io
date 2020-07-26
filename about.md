@@ -22,7 +22,7 @@ Welcome to my webpage!
 
 My name is Jerry, a statistics and computer science student at Sydney university.
 
-I am currently working at HelloFresh as a data scientist, splitting my time between building machine learning end-to-end and conducting marketing analytics for our campaigns.
+I am currently working at HelloFresh as a data scientist, splitting my time between building machine learning models end-to-end and doing marketing analytics for our campaigns.
 
 I use this space for two reasons; 1) jotting down ideas to use as a reference and (hopefully!) motivate readers to dig deeper into the subject, and 2) to reflect upon my experiences and learnings.
 
@@ -35,7 +35,7 @@ Writing reflections is a proactive way to mull over my thoughts and entertain re
 
 Earlier in summer I was doing a research internship at Data61, applying deep learning models used in NLP to information retrieval problems in the biomedical space.
 
-Prior to that I held machine learning roles at Commonwealth Bank and a startup called Hivery doing a mixture of data-engineering, modelling and software engineering.
+Prior to that I held data roles at Commonwealth Bank and a startup called Hivery building data pipelines, maintaining models in production and doing time series analysis.
 
 In a previous life, I ran my own podcast and chess school.
 
