@@ -18,11 +18,11 @@ toc: False
 
 ### Hello!
 
-My name is Jerry, a math and computer science student at Sydney university.
+Welcome to my webpage!
 
-I am currently interning at HelloFresh as a data scientist, working on optimising machine learning models, applying statistic to marketing experiments and building data pipelines.
+My name is Jerry, a statistics and computer science student at Sydney university.
 
-Welcome to my webpage, please feel free to look around.
+I am currently working at HelloFresh as a data scientist, splitting my time between building machine learning end-to-end and conducting marketing analytics for our campaigns.
 
 I use this space for two reasons; 1) jotting down ideas to use as a reference and (hopefully!) motivate readers to dig deeper into the subject, and 2) to reflect upon my experiences and learnings.
 
@@ -35,7 +35,7 @@ Writing reflections is a proactive way to mull over my thoughts and entertain re
 
 Earlier in summer I was doing a research internship at Data61, applying deep learning models used in NLP to information retrieval problems in the biomedical space.
 
-Prior to that I held data science roles at Commonwealth Bank and a startup called Hivery doing a mixture of data engineering, proof-of-concepts and time series analysis.
+Prior to that I held machine learning roles at Commonwealth Bank and a startup called Hivery doing a mixture of data-engineering, modelling and software engineering.
 
 In a previous life, I ran my own podcast and chess school.
 

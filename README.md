@@ -1,7 +1,7 @@
 
 ## Welcome
 
-Thanks for stopping by. This is my website where I host my bio and blog posts. Thank you to Mark Otto for authoring this theme. 
+Thanks for stopping by. This is my website where I host my bio and blog posts. Thank you to Mark Otto for authoring this theme.
 
 Feel free to look around. The website is [here](https://jerry-ye-xu.github.io/)
 
@@ -20,11 +20,11 @@ Feel free to look around. The website is [here](https://jerry-ye-xu.github.io/)
 
 ## About me
 
-Jerry is a student living down under and fully utilising the privileges of Github Pages. 
+Jerry is a student living down under and fully utilising the privileges of Github Pages.
 
-This is a Jekyll based website and pages are written in Markdown and fit into the html structure specified in `_layouts`. 
+This is a Jekyll based website and pages are written in Markdown and fit into the html structure specified in `_layouts`.
 
-This means that writing blog posts is relatively easier because we simply use markdown for all our blog posts and not have to worry. 
+This means that writing blog posts is relatively easier because we simply use markdown for all our blog posts and not have to worry.
 
 ## Installing Jekyll
 
@@ -40,7 +40,7 @@ brew install rbenv
 ```
 and follow the instructions [here]("https://github.com/rbenv/rbenv").
 
-If you run into issues with `shims`, you may need to manually export it in your terminal. 
+If you run into issues with `shims`, you may need to manually export it in your terminal.
 ```
 export PATH="/Users/Jerry/.rbenv/shims:${PATH}"
 ```
@@ -55,7 +55,7 @@ rbenv init -
 Once you no longer run into `FilePermissionsError`, you should be able to test your build locally useing `
 
 ```bash
-jekyll serve 
+jekyll serve
 ```
 
 ## Using MathJax
@@ -90,15 +90,15 @@ UPDATE: The above does not work with Kramdown & Github Pages... the solution is 
 
 The shadow I used can be found [here](https://codepen.io/ibrahimjabbari/pen/ozinB).
 
---- 
+---
 
-## Author 
+## Author
 
-Jerry Xu 
+Jerry Xu
 
 ---
 
-Lastly I wanted to thank the author of Hyde & Poole for making such a wonderful theme for the community. Details can be found below. 
+Lastly I wanted to thank the author of Hyde & Poole for making such a wonderful theme for the community. Details can be found below.
 
 ## About Hyde
 
@@ -112,7 +112,7 @@ Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a pro
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
-Mark is the author of this theme upon which I used to build my own website. 
+Mark is the author of this theme upon which I used to build my own website.
 
 ### License
 
@@ -124,9 +124,9 @@ Open sourced under the [MIT license](LICENSE.md).
 
 ### WORKLOG
 - 15/12/19: 0.0.7 - Added responsive image for `about_me` page
-- 12/10/19: 0.0.6 - Updated tagline and description in the side bar 
-- 04/7/19: 0.0.5 - Added blog post page to show all past blog posts, added tags and categories.  
-- 27/6/19: 0.0.4 - Get ToC working, added shadow to separate posts in home page. 
+- 12/10/19: 0.0.6 - Updated tagline and description in the side bar
+- 04/7/19: 0.0.5 - Added blog post page to show all past blog posts, added tags and categories.
+- 27/6/19: 0.0.4 - Get ToC working, added shadow to separate posts in home page.
 - 25/6/19: 0.0.3 - Added MathJax, updated about me page with photo.
-- 24/6/19: 0.0.2 - Added data science for students page, revised README.md page. 
+- 24/6/19: 0.0.2 - Added data science for students page, revised README.md page.
 - 23/6/19: 0.0.1 - Initial commit, removed all relative links and updated about me page.
