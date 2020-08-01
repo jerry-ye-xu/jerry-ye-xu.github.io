@@ -2,9 +2,14 @@
 layout: post
 title: Reflection: Summer research at Data61
 category: Practical
-categories: ['Deep learning','Pytorch', 'research', 'Data61', 'NLP']
-tags: ['Deep learning','Pytorch', 'research', 'Data61', 'NLP']
+categories: ['Deep learning', 'Pytorch', 'research', 'Data61', 'NLP']
+tags: ['Deep learning', 'Pytorch', 'research', 'Data61', 'NLP']
 ---
+
+<h2 class="no_toc">Table of Contents</h2>
+
+* TOC
+{:toc}
 
 A few months ago I wrapped up an internship at Data61, after spending 3 months there over the summer on a research project.
 

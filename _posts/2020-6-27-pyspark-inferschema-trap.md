@@ -112,3 +112,5 @@ and the result
 This took me longer than necessary to debug because I did not suspect this to be an issue for a while.
 
 Nevertheless I hope this means that you won't run into this issue in your own work!
+
+You download the dataset [here](https://www.dropbox.com/s/a41ov7uqwlnnon8/ontimeperformance_flights_tiny.csv?dl=0) to reproduce the code.
