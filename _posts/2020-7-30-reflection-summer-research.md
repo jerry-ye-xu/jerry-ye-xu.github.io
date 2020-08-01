@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Reflection: Summer research at Data61
+title: Reflection - Summer research at Data61
 category: Practical
 categories: ['Deep learning', 'Pytorch', 'research', 'Data61', 'NLP']
 tags: ['Deep learning', 'Pytorch', 'research', 'Data61', 'NLP']
