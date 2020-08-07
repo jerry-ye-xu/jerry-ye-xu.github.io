@@ -8,6 +8,7 @@ plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-toc
+  - jekyll-feed
 
 # Setup
 title:            Jerry Xu
