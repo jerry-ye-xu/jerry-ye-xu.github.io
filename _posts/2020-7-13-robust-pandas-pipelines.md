@@ -24,7 +24,7 @@ Today I've compiled a short list of ideas and code snippets that I found useful 
 
 Note: The code here is for `Python3.6+`
 
-## Ensuring consistency
+## Basic checks for robustness
 
 We should always check the following items at appropriate checkpoints.
 
