@@ -69,7 +69,6 @@ df = df.astype(
 )
 ```
 
-
 __3) Duplicate values__
 
 This one varies depending on our use case. Suppose we have customer ID and this is supposed to be unique, then we want to make sure that this is the case with
@@ -135,7 +134,7 @@ __6) Saving to csv__
 
 As you might have guessed, I will be specifying columns whenever I want to save a DataFrame to a csv files.
 ```python
-df[col_order].to_csv(path, index=False)
+df[columns_to_keep].to_csv(path, index=False)
 ```
 
 __7) Viewing duplicates__
@@ -153,7 +152,7 @@ Well in this case we simply do a check
 
 ```python
 if set(columns_to_keep) == set(df.columns):
-    raise ValueError("Different columns between \'columns to keep\' and df.columns!")
+    raise ValueError("Different columns between 'columns to keep' and df.columns!")
 ```
 and if this is not equal throw an error.
 
