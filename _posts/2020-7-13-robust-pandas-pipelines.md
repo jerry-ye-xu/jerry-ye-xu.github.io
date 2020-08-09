@@ -297,7 +297,7 @@ Clearly these two DataFrames have different values right?
 
 Try running the code and see what happens. :)
 
-__Can we figure out why?__
+__Can you figure out why?__
 
 ## Conclusion
 
