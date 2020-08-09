@@ -2,7 +2,7 @@
 layout: post
 title: PySpark data trap - inferschema
 category: Practical
-categories: ['PySpark','data wrangling']
+categories: ['Python', 'PySpark','data wrangling']
 tags: ['Python','PySpark', 'data wrangling']
 ---
 
