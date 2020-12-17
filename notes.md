@@ -18,11 +18,13 @@ Below are some notes I have written for my own self-study. To be best of my abil
 	</li>
     <li>
         <a href="https://github.com/jerry-ye-xu/CSnotes/tree/master/COMP3221_notes">COMP3221: Distributed Systems [p-1.0.0]</a>
-    </li>
+    </li> 
     <li>
         <a href="https://github.com/jerry-ye-xu/CSnotes/tree/master/DATA3404_notes">DATA3404: Data Science Platforms [p-1.0.0]</a>
     </li>
-
+    <li>
+        <a href="https://github.com/jerry-ye-xu/CSnotes/tree/master/SOFT2201-notes.md">SOFT2201: Software Construction & Design I [p-1.0.0]</a>
+    </li>
 <!-- 	<li>
  		<a href="/notes/linear_algebra.pdf">MATH2922: Linear and Abstract Algebra (Advanced), Selected Topics [dh-1.0.0]</a>
 	</li>
