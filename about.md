@@ -55,16 +55,21 @@ Disclaimer: I am not affiliated nor compensated in any way.
 
 ### Relevant Coursework
 
-Here is a brief summary of coursework that is relevant for my career interests.
+Here is a brief summary of my coursework in CS & math.
 
 __Computer Science:__
-- Data structures & algorithms
-- Systems programming
-- Distributed systems
+
 - Databases I & II
-- Discrete optimisation
+- Systems Programming
+- Data Structures & Algorithms
+- Programming Languages, Logic & Models
+- Software Construction and Design I
+- Algorithms Design
+- Distributed Systems
+- Discrete Optimisation
 
 __Statistics:__
+
 - Statisical modelling
 - Statistical tests
 - Applied linear models
@@ -72,8 +77,9 @@ __Statistics:__
 - Time series & stohastic processes
 - Statistical inference
 
-__Mathematics:__
-- Linear algebra
-- Vector calculus & ODEs
-- Analysis
-- Metric spaces
+__Mathematics__
+
+- Abstract & Linear Algebra
+- Vector Calculus
+- Real & Complex Analysis
+- Metric Spaces
